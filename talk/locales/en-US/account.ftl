@@ -1,75 +1,75 @@
-### Localization for Account
+### 帐户的本地化
 
 account-tokenNotFound =
-  The specified link is invalid, check to see if it was copied correctly.
+  指定的链接无效，请检查链接是否被正确复制。
 
-## Not Found
+## 未找到
 
-notFound = Not Found
+notFound = 找不到
 
-## Password Reset
+## 重设密码
 
-resetPassword-resetPassword = Reset Password
-resetPassword-resetYourPassword = Reset your password
+resetPassword-resetPassword = 重置密码
+resetPassword-resetYourPassword = 重置密码
 resetPassword-pleaseEnterNewPassword =
-  Please enter a new password to use to sign in to your account.
-  Make sure it is unique and be sure to keep it secure.
-resetPassword-passwordLabel = Password
-resetPassword-passwordDescription = Must be at least {$minLength} characters
+  请输入新密码以用于登录您的帐户。
+  确保它是唯一的，并确保其安全。
+resetPassword-passwordLabel = 密码
+resetPassword-passwordDescription = 必须至少为 {$minLength} 个字符
 resetPassword-passwordTextField =
-  .placeholder = Password
-resetPassword-successfullyReset = Password successfully reset
+  .placeholder = 密码
+resetPassword-successfullyReset = 密码成功重置
 resetPassword-youMayClose =
-  You may now close this window and sign in to your account with your new password.
-resetPassword-oopsSorry = Oops Sorry!
-resetPassword-missingResetToken = The Reset Token seems to be missing.
+  您现在可以关闭此窗口，然后使用新密码登录到您的帐户。
+resetPassword-oopsSorry = 抱歉！
+resetPassword-missingResetToken = 重置令牌似乎丢失。
 
-## Email Confirmation
+## 邮件确认
 
 confirmEmail-emailConfirmation =
 confirmEmail-confirmYourEmailAddress =
-  Confirm your email address
-confirmEmail-confirmEmail = Confirm email
-confirmEmail-pleaseClickToConfirm = Click below to confirm your email address.
-confirmEmail-oopsSorry = Oops Sorry!
-confirmEmail-missingConfirmToken = The Confirm Token seems to be missing.
-confirmEmail-successfullyConfirmed = Email successfully confirmed
+  请确认您的电邮地址
+confirmEmail-confirmEmail = 确认电子邮件
+confirmEmail-pleaseClickToConfirm = 单击下面以确认您的电子邮件地址。
+confirmEmail-oopsSorry = 抱歉！
+confirmEmail-missingConfirmToken = 似乎缺少确认令牌。
+confirmEmail-successfullyConfirmed = 电子邮件已成功确认
 confirmEmail-youMayClose =
-  You may now close this window.
+  您现在可以关闭此窗口。
 
-## Download
+## 下载
 
-download-landingPage-title = Download your comment history
+download-landingPage-title = 下载您的评论历史记录
 download-landingPage-description =
-  Your comment history will be downloaded into a .zip file. After your
-  comment history is unzipped you will have a comma separated value (or .csv)
-  file that you can easily import into your favorite spreadsheet
-  application.
+  您的评论历史记录将下载到.zip文件中。
+  您的评论历史记录  解压缩后是逗号分
+  隔(or .csv)文件，您可以轻松将其导入
+  到您喜欢的电子表格应用。  
 download-landingPage-contentsDescription =
-  For each of your comments the following information is included:
+  对于您的每条评论，都包含以下信息：
 download-landingPage-contentsDate =
-  When you wrote the comment
+  当您写评论时
 download-landingPage-contentsUrl =
-  The permalink URL for the comment
+  评论的永久链接URL
 download-landingPage-contentsText =
-  The comment text
+  评论文字
 download-landingPage-contentsStoryUrl =
-  The URL on the article or story where the comment appears
+  出现评论的文章或故事上的URL
 download-landingPage-downloadComments =
-download-landingPage-download = Download
-download-landingPage-sorry = Your download link is invalid.
+download-landingPage-download = 下载
+download-landingPage-sorry = 您的下载链接无效。
 
-## Unsubscribe
+## 退订
 
 unsubscribe-confirm =
 unsubscribe-successfullyUnsubscribed =
 
-unsubscribe-unsubscribeFromEmails = Unsubscribe from email notifications
-unsubscribe-oopsSorry = Oops Sorry!
+unsubscribe-unsubscribeFromEmails = 退订电子邮件通知
+unsubscribe-oopsSorry = 抱歉！
 unsubscribe-clickToConfirm =
-  Click below to confirm that you want to unsubscribe from all notifications.
-unsubscribe-submit-unsubscribe = Unsubscribe
+  单击下面以确认您要取消订阅所有通知。
+unsubscribe-submit-unsubscribe = 取消订阅
 unsubscribe-unsubscribedSuccessfully =
-  Unsubscribed successfully from email notifications
+  已成功取消订阅电子邮件通知
 unsubscribe-youMayNowClose =
-  You may now close this window
+  您现在可以关闭此窗口
