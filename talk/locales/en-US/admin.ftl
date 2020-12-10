@@ -1,24 +1,24 @@
-### Localization for Admin
+### 管理员本地化
 
-## General
-general-notAvailable = Not available
+## 通用
+general-notAvailable = 不可用
 
-## Story Status
-storyStatus-open = Open
-storyStatus-closed = Closed
+## 故事状态
+storyStatus-open = 打开
+storyStatus-closed = 已关闭
 
-## Roles
-role-admin = Admin
-role-moderator = Moderator
-role-siteModerator = Site Moderator
-role-organizationModerator = Organization Moderator
-role-staff = Staff
-role-commenter = Commenter
+## 角色
+role-admin = 管理员
+role-moderator = 审核人
+role-siteModerator = 网站审核人
+role-organizationModerator = 组织审核人
+role-staff = 员工
+role-commenter = 评论者
 
-role-plural-admin = Admins
-role-plural-moderator = Moderators
-role-plural-staff = Staff
-role-plural-commenter = Commenters
+role-plural-admin = 管理员
+role-plural-moderator = 审核人
+role-plural-staff = 员工
+role-plural-commenter = 评论者
 
 comments-react =
   .aria-label = {$count ->
@@ -32,26 +32,26 @@ comments-reacted =
     *[other] {$reaction} ({$count}) comment by {$username}
   }
 
-## User Statuses
-userStatus-active = Active
-userStatus-banned = Banned
-userStatus-suspended = Suspended
-userStatus-premod = Always pre-moderate
-userStatus-warned = Warned
+## 用户状态
+userStatus-active = 活跃的
+userStatus-banned = 已封禁
+userStatus-suspended = 停用
+userStatus-premod = 始终处于预审核状态
+userStatus-warned = 警告
 
-## Navigation
-navigation-moderate = Moderate
-navigation-community = Community
-navigation-stories = Stories
-navigation-configure = Configure
-navigation-dashboard = Dashboard
+## 导航
+navigation-moderate = 审核
+navigation-community = 社区
+navigation-stories = 故事
+navigation-configure = 配置
+navigation-dashboard = 控制面板
 
-## User Menu
-userMenu-signOut = Sign Out
-userMenu-viewLatestRelease = View Latest Release
-userMenu-reportBug = Report a Bug or Give Feedback
+## 用户菜单
+userMenu-signOut = 注销
+userMenu-viewLatestRelease = 查看最新版本
+userMenu-reportBug = 报告错误或提供反馈
 userMenu-popover =
-  .description = A dialog of the user menu with related links and actions
+  .description = 用户菜单的对话框，其中包含相关的链接和操作
 
 ## Restricted
 restricted-currentlySignedInTo = Currently signed in to
