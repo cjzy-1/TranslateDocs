@@ -1,132 +1,132 @@
-### Localization for the Auth Popup
+### 认证弹窗的本地化
 
-## General
-general-orSeparator = Or
+## 通用
+general-orSeparator = 或
 
-general-usernameLabel = Username
-general-usernameDescription = You may use “_” and “.” Spaces not permitted.
+general-usernameLabel = 用户名
+general-usernameDescription = 您可以使用 “_” 和 “.” 不允许使用空格。
 general-usernameTextField =
-  .placeholder = Username
-general-emailAddressLabel = Email address
+  .placeholder = 用户名
+general-emailAddressLabel = 电子邮件地址
 general-emailAddressTextField =
-  .placeholder = Email address
-general-passwordLabel = Password
-general-passwordDescription = Must be at least {$minLength} characters
+  .placeholder = 电子邮件地址
+general-passwordLabel = 密码
+general-passwordDescription = 必须至少包含 {$minLength} 个字符
 general-passwordTextField =
-  .placeholder = Password
+  .placeholder = 密码
 general-confirmPasswordTextField =
-  .placeholder = Confirm password
-general-confirmEmailAddressLabel = Confirm email address
+  .placeholder = 确认密码
+general-confirmEmailAddressLabel = 确认电子邮件地址
 general-confirmEmailAddressTextField =
-  .placeholder = Confirm email address
+  .placeholder = 确认电子邮件地址
 
-## Sign In
+## 登录
 
 signIn-signInToJoinHeader =
-  <title>Sign in</title><subtitle>to join the conversation<subtitle>
+  <title>登录</title><subtitle>加入对话<subtitle>
 
-signIn-signInWithEmail = Sign in with Email
-signIn-signInWithFacebook = Sign in with Facebook
-signIn-signInWithGoogle = Sign in with Google
-signIn-signInWithOIDC = Sign in with { $name }
+signIn-signInWithEmail = 使用电子邮件登录
+signIn-signInWithFacebook = 用Facebook登录
+signIn-signInWithGoogle = 使用Google登录
+signIn-signInWithOIDC = 使用{ $name }登录
 
-signIn-passwordLabel = Password
+signIn-passwordLabel = 密码
 signIn-passwordTextField =
-  .placeholder = Password
+  .placeholder = 密码
 
-signIn-forgotYourPassword = Forgot your password?
+signIn-forgotYourPassword = 忘记密码了？
 
-signIn-noAccountSignUp = Don't have an account? <textlink>Sign up</textlink>
+signIn-noAccountSignUp = 没有帐户？ <textlink>注册</textlink>
 
-## Sign Up
+## 注册
 
 signUp-signUpToJoinHeader =
-  <title>Sign up</title><subtitle>to join the conversation</subtitle>
+  <title>注册</title><subtitle>加入对话</subtitle>
 
-signUp-signUpWithEmail = Sign up with Email
-signUp-signUpWithFacebook = Sign up with Facebook
-signUp-signUpWithGoogle = Sign up with Google
-signUp-signUpWithOIDC = Sign up with { $name }
+signUp-signUpWithEmail = 使用电子邮件注册
+signUp-signUpWithFacebook = 使用Facebook注册
+signUp-signUpWithGoogle = 使用Google注册
+signUp-signUpWithOIDC = 使用{ $name }注册
 
-signUp-accountAvailableSignIn = Already have an account? <textlink>Sign in</textlink>
+signUp-accountAvailableSignIn = 已经有一个帐户？ <textlink>登录</textlink>
 
-## Forgot Password
+## 忘记密码
 
-forgotPassword-forgotPasswordHeader = Forgot password?
+forgotPassword-forgotPasswordHeader = 忘记密码了？
 forgotPassword-enterEmailAndGetALink =
-  Enter your email address below and we will send you a link to
-  reset your password.
+  在下面输入您的电子邮件地址，我们将向您发送链接
+  重置您的密码。
 
-forgotPassword-sendEmailButton = Send email
+forgotPassword-sendEmailButton = 发送电子邮件
 
-forgotPassword-emailAddressLabel = Email address
+forgotPassword-emailAddressLabel = 电子邮件地址
 forgotPassword-emailAddressTextField =
-  .placeholder = Email address
-forgotPassword-gotBackToSignIn = Go back to sign in page
+  .placeholder = 电子邮件地址
+forgotPassword-gotBackToSignIn = 返回登录页面
 
 forgotPassword-enterEmailAndGetALink =
-  Enter your email address below and we will send you a link to
-  reset your password.
+  在下面输入您的电子邮件地址，我们将向您发送链接
+  重置您的密码。
 
-# Check Email
+# 查看电子邮件
 
-forgotPassword-checkEmail-checkEmailHeader = Check your email
+forgotPassword-checkEmail-checkEmailHeader = 查看您的电子邮件
 forgotPassword-checkEmail-receiveEmail =
-  If there is an account associated with <email></email>,
-  you will receive an email with a link to create a new password.
-forgotPassword-checkEmail-closeButton = Close
+  如果存在与<email></email>相关的帐户,
+  您将收到一封电子邮件，其中包含用于创建新密码的链接。
+forgotPassword-checkEmail-closeButton = 关闭
 
-## Link Account
+## 关连帐户
 
-linkAccount-linkAccountHeader = Link account
+linkAccount-linkAccountHeader = 关连帐户
 linkAccount-alreadyAssociated =
-  The email <strong>{ $email }</strong> is
-  already associated with an account. If you would like to
-  link these enter your password.
-linkAccount-passwordLabel = Password
+  电子邮件 <strong>{ $email }</strong> 
+  已经与一个帐户相关联。 如果你想
+  关连这些电子邮件，输入您的密码。
+linkAccount-passwordLabel = 密码
 linkAccount-passwordTextField =
-  .label = Password
-linkAccount-linkAccountButton = Link account
-linkAccount-useDifferentEmail = Use a different email address
+  .label = 密码
+linkAccount-linkAccountButton = 关连帐户
+linkAccount-useDifferentEmail = 使用其他电子邮件地址
 
-## Reset Password
+## 重置密码
 
-resetPassword-resetPasswordHeader = Reset password
-resetPassword-resetPasswordButton = Reset password
+resetPassword-resetPasswordHeader = 重置密码
+resetPassword-resetPasswordButton = 重置密码
 
-## Create Username
+## 创建用户名
 
 createUsername-createUsernameHeader =
-createUsername-createAUsername = Create a username
+createUsername-createAUsername = 创建用户名
 createUsername-whatItIs =
-  Your username is an identifier that will appear on all of your comments.
-createUsername-createUsernameButton = Create username
+  您的用户名，将显示在您的所有评论中。
+createUsername-createUsernameButton = 创建用户名
 
-## Add Email Address
-addEmailAddress-addEmailAddressHeader = Add email address
+## 添加电子邮件地址
+addEmailAddress-addEmailAddressHeader = 添加电子邮件地址
 
 addEmailAddress-whatItIs =
-  For your added security, we require users to add an email address to their accounts.
-  Your email address will be used to:
+  为了增加安全性，我们要求用户向其帐户添加电子邮件地址。
+  您的电子邮件地址将用于：
 
 addEmailAddress-receiveUpdates =
-  Receive updates regarding any changes to your account
-  (email address, username, password, etc.)
+  接收有关您帐户的任何更改的更新
+  （电子邮件地址，用户名，密码等）
 
 addEmailAddress-allowDownload =
-  Allow you to download your comments.
+  允许您下载评论。
 
 addEmailAddress-sendNotifications =
-  Send comment notifications that you have chosen to receive.
+  发送您选择接收的评论通知。
 
 addEmailAddress-addEmailAddressButton =
-  Add email address
+  添加电子邮件地址
 
-## Create Password
+## 创建密码
 createPassword-createPasswordHeader =
-createPassword-createAPassword = Create a password
+createPassword-createAPassword = 创建密码
 createPassword-whatItIs =
-  To protect against unauthorized changes to your account,
-  we require users to create a password.
+  为了防止未经授权更改您的帐户，
+  我们要求用户创建密码。
 createPassword-createPasswordButton =
-  Create password
+  创建密码
