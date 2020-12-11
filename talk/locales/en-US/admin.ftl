@@ -205,120 +205,120 @@ configure-moderationPhases-format = 注释正文格式
 configure-moderationPhases-endpointURL = 回调URL
 configure-moderationPhases-timeout = 超时
 configure-moderationPhases-timeout-details =
-  The time that Coral will wait for your moderation response in milliseconds.
+  Coral等待您的审核响应的时间（以毫秒为单位）。
 configure-moderationPhases-format-details =
-  The format that Coral will send the comment body in. By default, Coral will
-  send the comment in the original HTML encoded format. If "Plain Text" is
-  selected, then the HTML stripped version will be sent instead.
+  将以其发送评论正文的格式。默认情况下，Coral将
+  以原始HTML编码格式发送评论。如果为“纯文本”，
+  则将发送去HTML版本。
 configure-moderationPhases-format-html = HTML
-configure-moderationPhases-format-plain = Plain Text
+configure-moderationPhases-format-plain = 纯文本
 configure-moderationPhases-endpointURL-details =
-  The URL that Coral moderation requests will be POST'ed to. The provided URL
-  must respond within the designated timeout or the decision of the moderation
-  action will be skipped.
+  审核请求的网址将被发布。 提供的URL
+  必须在指定的时间内做出回应或跳过
+  审核动作。
 configure-moderationPhases-configureExternalModerationPhase =
-  Configure external moderation phase
-configure-moderationPhases-phaseDetails = Phase details
-onfigure-moderationPhases-status = Status
-configure-moderationPhases-signingSecret = Signing secret
+  配置外部审核阶段
+configure-moderationPhases-phaseDetails = 阶段详细信息
+onfigure-moderationPhases-status = 状态
+configure-moderationPhases-signingSecret = 签署密钥
 configure-moderationPhases-signingSecretDescription =
-  The following signing secret is used to sign request payloads sent
-  to the URL. To learn more about webhook signing, visit our <externalLink>docs</externalLink>.
-configure-moderationPhases-phaseStatus = Phase status
-configure-moderationPhases-status = Status
-configure-moderationPhases-signingSecret = Signing secret
+  以下签名密钥是用来签署请求发送到URL的有效负载。
+  要了解有关Webhook签名的更多信息，请访问我们的 <externalLink>docs</externalLink>.
+configure-moderationPhases-phaseStatus = 阶段进展
+configure-moderationPhases-status = 进展
+configure-moderationPhases-signingSecret = 签署密钥
 configure-moderationPhases-signingSecretDescription =
-  The following signing secret is used to sign request payloads sent to the URL.
-  To learn more about webhook signing, visit our <externalLink>docs</externalLink>.
-configure-moderationPhases-dangerZone = Danger Zone
-configure-moderationPhases-rotateSigningSecret = Rotate signing secret
+  以下签名密钥是用来签署请求发送到URL的有效负载。
+  要了解有关Webhook签署的更多信息，请访问我们的 <externalLink>docs</externalLink>.
+configure-moderationPhases-dangerZone = 危险区域
+configure-moderationPhases-rotateSigningSecret = 轮换签署密钥
 configure-moderationPhases-rotateSigningSecretDescription =
-  Rotating the signing secret will allow to you to safely replace a signing
-  secret used in production with a delay.
-configure-moderationPhases-rotateSigningSecretButton = Rotate signing secret
+  轮换签名秘钥将使您安全地替换
+  用于生产中的延迟签署的密钥。
+configure-moderationPhases-rotateSigningSecretButton = 轮换签署密钥
 
 configure-moderationPhases-disableExternalModerationPhase =
-  Disable external moderation phase
+  禁用外部审核阶段
 configure-moderationPhases-disableExternalModerationPhaseDescription =
-  This external moderation phase is current enabled. By disabling, no new
-  moderation queries will be sent to the URL provided.
-configure-moderationPhases-disableExternalModerationPhaseButton = Disable phase
+  此外部审核阶段已启用。禁用则不会发送新的
+  审核查询URL。
+configure-moderationPhases-disableExternalModerationPhaseButton = 禁用阶段
 configure-moderationPhases-enableExternalModerationPhase =
-  Enable external moderation phase
+  启用外部审核阶段
 configure-moderationPhases-enableExternalModerationPhaseDescription =
-  This external moderation phase is currently disabled. By enabling, new
-  moderation queries will be sent to the URL provided.
-configure-moderationPhases-enableExternalModerationPhaseButton = Enable phase
+  此外部审核阶段当前处于禁用状态。启用，将发送新
+  的审核查询URL。
+configure-moderationPhases-enableExternalModerationPhaseButton = 启用阶段
 configure-moderationPhases-deleteExternalModerationPhase =
-  Delete external moderation phase
+  删除外部审核阶段
 configure-moderationPhases-deleteExternalModerationPhaseDescription =
-  Deleting this external moderation phase will stop any new moderation queries
-  from being sent to this URL and will remove all the associated settings.
-configure-moderationPhases-deleteExternalModerationPhaseButton = Delete phase
-configure-moderationPhases-rotateSigningSecret = Rotate signing secret
+  删除此外部审核阶段所有新的审核查询
+  将停止发送到该URL，并将删除所有相关设置。
+configure-moderationPhases-deleteExternalModerationPhaseButton = 删除阶段
+configure-moderationPhases-rotateSigningSecret = 轮换签署密钥
 configure-moderationPhases-rotateSigningSecretHelper =
-  After it expires, signatures will no longer be generated with the old secret.
+  过期后， 签名将不再使用旧的秘钥生成。
 configure-moderationPhases-expiresOldSecret =
-  Expire the old secret
+  过期的旧秘钥
 configure-moderationPhases-expiresOldSecretImmediately =
-  Immediately
+  立即
 configure-moderationPhases-expiresOldSecretHoursFromNow =
   { $hours ->
-    [1] 1 hour
-    *[other] { $hours } hours
-  } from now
+    [1] 1 小时
+    *[other] { $hours } 小时
+  } 现在起
 configure-moderationPhases-rotateSigningSecretSuccessUseNewSecret =
-  External moderation phase signing secret has been rotated. Please ensure you
-  update your integrations to use the new secret below.
+  外部审核阶段签名密钥已轮换。 请确保你
+  以使用下面的新秘密更新您的集成。
 configure-moderationPhases-confirmDisable =
-  Disabling this external moderation phase will stop any new moderation queries
-  from being sent to this URL. Are you sure you want to continue?
+  禁用此外部审核阶段所有新的审核查询
+  将停止发送URL。 你确定你要继续吗？
 configure-moderationPhases-confirmEnable =
-  Enabling the external moderation phase will start to send moderation queries
-  to this URL. Are you sure you want to continue?
+  启用外部审核阶段将开始发送审核查询
+  到这个URL。你确定你要继续吗？
 configure-moderationPhases-confirmDelete =
-  Deleting this external moderation phase will stop any new moderation queries
-  from being sent to this URL and will remove all the associated settings. Are
-  you sure you want to continue?
+  删除此外部审核阶段所有新的审核查询
+  将停止发送到该URL，并将删除所有相关设置。
+  您确定要继续吗？
 
 ### Webhooks
 
-configure-webhooks-generatedAt = KEY GENERATED AT:
+configure-webhooks-generatedAt = 密钥生成于：
   { DATETIME($date, year: "numeric", month: "numeric", day: "numeric", hour: "numeric", minute: "numeric") }
 configure-webhooks-experimentalFeature =
-  The webhook feature is currently in active development. Events may be
-  added or removed. Please <ContactUsLink>contact us with any feedback or requests</ContactUsLink>.
-configure-webhooks-webhookEndpointNotFound = Webhook endpoint not found
-configure-webhooks-header-title = Configure webhook endpoint
+  Webhook功能目前正在积极开发中。事件可能是
+   添加或删除。 如有任何< ContactUsLink >反馈或要求</ ContactUsLink >请与我们联系。
+configure-webhooks-webhookEndpointNotFound = 找不到Webhook endpoint 
+configure-webhooks-header-title = 配置webhook endpoint
 configure-webhooks-description =
-  Configure an endpoint to send events to when events occur within
-  Coral. These events will be JSON encoded and signed. To learn more
-  about webhook signing, visit our <externalLink>Webhook Guide</externalLink>.
-configure-webhooks-addEndpoint = Add webhook endpoint
-configure-webhooks-addEndpointButton = Add webhook endpoint
+  配置endpoint以在触发时发送事件。 
+  这些事件将以JSON编码并签名。 了解更多
+  有关Webhook签名的信息，请访问我们的< externalLink > Webhook指南</ externalLink >。
+configure-webhooks-addEndpoint = 添加 webhook endpoint
+configure-webhooks-addEndpointButton = 添加 webhook endpoint
 configure-webhooks-endpoints = Endpoints
 configure-webhooks-url = URL
-configure-webhooks-status = Status
-configure-webhooks-noEndpoints = There are no webhook endpoints configured, add one above.
-configure-webhooks-enabledWebhookEndpoint = Enabled
-configure-webhooks-disabledWebhookEndpoint = Disabled
+configure-webhooks-status = 状态
+configure-webhooks-noEndpoints = 未配置任何 webhook endpoints，在上面添加一个。
+configure-webhooks-enabledWebhookEndpoint = 启用
+configure-webhooks-disabledWebhookEndpoint = 禁用
 configure-webhooks-endpointURL = Endpoint URL
-configure-webhooks-cancelButton = Cancel
-configure-webhooks-updateWebhookEndpointButton = Update webhook endpoint
-configure-webhooks-eventsToSend = Events to send
-configure-webhooks-clearEventsToSend = Clear
+configure-webhooks-cancelButton = 取消
+configure-webhooks-updateWebhookEndpointButton = 更新 webhook endpoint
+configure-webhooks-eventsToSend = 要发送的事件
+configure-webhooks-clearEventsToSend = 清除
 configure-webhooks-eventsToSendDescription =
-  These are the events that are registered to this particular endpoint. Visit
-  our <externalLink>Webhook Guide</externalLink> for the schema of these events.
-  Any event matching the following will be sent to the endpoint if it is
-  enabled:
+  这些是已注册到此特定endpoint的事件。 用于这些事件的架构。Visit
+  访问我们的< externalLink > Webhook指南</ externalLink >。
+  符合以下条件的任何事件将被发送到endpoint
+  已启用：
 configure-webhooks-allEvents =
-  The endpoint will receive all events, including any added in the future.
+  endpoint将接收所有事件，包括将来添加的任何事件。
 configure-webhooks-selectedEvents =
   { $count } { $count ->
-    [1] event
-    *[other] events
-  } selected.
+    [1] 事件
+    *[other] 事件
+  } 已选择。
 configure-webhooks-selectAnEvent =
   Select events above or <button>receive all events</button>.
 configure-webhooks-configureWebhookEndpoint = Configure webhook endpoint
