@@ -53,97 +53,97 @@ userMenu-reportBug = 报告错误或提供反馈
 userMenu-popover =
   .description = 用户菜单的对话框，其中包含相关的链接和操作
 
-## Restricted
-restricted-currentlySignedInTo = Currently signed in to
-restricted-noPermissionInfo = You do not have permission to access this page.
-restricted-signedInAs = You are signed in as: <strong>{ $username }</strong>
-restricted-signInWithADifferentAccount = Sign in with a different account
-restricted-contactAdmin = If you think this is an error, please contact your administrator for assistance.
+## 受限的
+restricted-currentlySignedInTo = 当前登录
+restricted-noPermissionInfo = 您无权访问此页面。
+restricted-signedInAs = 您以以下身份登录： <strong>{ $username }</strong>
+restricted-signInWithADifferentAccount = 使用其他帐户登录
+restricted-contactAdmin = 如果您认为这是一个错误，请与管理员联系以寻求帮助。
 
-## Login
+## 登录
 
-# Sign In
-login-signInTo = Sign in to
-login-signIn-enterAccountDetailsBelow = Enter your account details below
+# 登录
+login-signInTo = 登录
+login-signIn-enterAccountDetailsBelow = 在下面输入您的帐户详细信息
 
-login-emailAddressLabel = Email Address
+login-emailAddressLabel = 电子邮件地址
 login-emailAddressTextField =
-  .placeholder = Email Address
+  .placeholder = 电子邮件地址
 
-login-signIn-passwordLabel = Password
+login-signIn-passwordLabel = 密码
 login-signIn-passwordTextField =
-  .placeholder = Password
+  .placeholder = 密码
 
-login-signIn-signInWithEmail = Sign in with Email
-login-orSeparator = Or
-login-signIn-forgot-password = Forgot your password?
+login-signIn-signInWithEmail = 使用电子邮件登录
+login-orSeparator = 或
+login-signIn-forgot-password = 忘记密码了？
 
-login-signInWithFacebook = Sign in with Facebook
-login-signInWithGoogle = Sign in with Google
-login-signInWithOIDC = Sign in with { $name }
+login-signInWithFacebook = 使用 Facebook 登录
+login-signInWithGoogle = 使用 Google 登录
+login-signInWithOIDC = 使用 { $name } 登录
 
-# Create Username
+# 创建用户名
 
-createUsername-createUsernameHeader = Create Username
+createUsername-createUsernameHeader = 创建用户名
 createUsername-whatItIs =
-  Your username is an identifier that will appear on all of your comments.
-createUsername-createUsernameButton = Create Username
-createUsername-usernameLabel = Username
-createUsername-usernameDescription = You may use “_” and “.” Spaces not permitted.
+  您的用户将显示在您的所有评论中。
+createUsername-createUsernameButton = 创建用户名
+createUsername-usernameLabel = 用户名
+createUsername-usernameDescription = 您可以使用 “_” 和 “.” 不允许使用空格。
 createUsername-usernameTextField =
-  .placeholder = Username
+  .placeholder = 用户名
 
-# Add Email Address
-addEmailAddress-addEmailAddressHeader = Add Email Address
+# 添加电子邮件地址
+addEmailAddress-addEmailAddressHeader = 添加电子邮件地址
 
-addEmailAddress-emailAddressLabel = Email Address
+addEmailAddress-emailAddressLabel = 电子邮件地址
 addEmailAddress-emailAddressTextField =
-  .placeholder = Email Address
+  .placeholder = 电子邮件地址
 
-addEmailAddress-confirmEmailAddressLabel = Confirm Email Address
+addEmailAddress-confirmEmailAddressLabel = 确认电子邮件地址
 addEmailAddress-confirmEmailAddressTextField =
-  .placeholder = Confirm Email Address
+  .placeholder = 确认电子邮件地址
 
 addEmailAddress-whatItIs =
-  For your added security, we require users to add an email address to their accounts.
+  为了增加安全性，我们要求用户向其帐户添加电子邮件地址。
 
 addEmailAddress-addEmailAddressButton =
-  Add Email Address
+  添加电子邮件地址
 
-# Create Password
-createPassword-createPasswordHeader = Create Password
+# 创建密码
+createPassword-createPasswordHeader = 创建密码
 createPassword-whatItIs =
-  To protect against unauthorized changes to your account,
-  we require users to create a password.
+  为了防止未经授权更改您的帐户，
+  我们要求用户创建密码。
 createPassword-createPasswordButton =
-  Create Password
+  创建密码
 
-createPassword-passwordLabel = Password
-createPassword-passwordDescription = Must be at least {$minLength} characters
+createPassword-passwordLabel = 密码
+createPassword-passwordDescription = 必须至少为 {$minLength} 个字符
 createPassword-passwordTextField =
-  .placeholder = Password
+  .placeholder = 密码
 
-# Forgot Password
-forgotPassword-forgotPasswordHeader = Forgot password?
-forgotPassword-checkEmailHeader = Check your email
-forgotPassword-gotBackToSignIn = Go back to sign in page
+# 忘记密码
+forgotPassword-forgotPasswordHeader = 忘记密码了？
+forgotPassword-checkEmailHeader = 查看您的电子邮件
+forgotPassword-gotBackToSignIn = 返回登录页面
 forgotPassword-checkEmail-receiveEmail =
-  If there is an account associated with <strong>{ $email }</strong>,
-  you will receive an email with a link to create a new password.
+  如果有一个与 <strong>{ $email }</strong> 相关的帐户，,
+  您将收到一封电子邮件，其中包含用于创建新密码的链接。
 forgotPassword-enterEmailAndGetALink =
-  Enter your email address below and we will send you a link
-  to reset your password.
-forgotPassword-emailAddressLabel = Email address
+  在下面输入您的电子邮件地址，我们将向您发送一个链接
+  重设密码。
+forgotPassword-emailAddressLabel = 电子邮件地址
 forgotPassword-emailAddressTextField =
-  .placeholder = Email Address
-forgotPassword-sendEmailButton = Send email
+  .placeholder = 电子邮件地址
+forgotPassword-sendEmailButton = 发送电子邮件
 
-# Link Account
-linkAccount-linkAccountHeader = Link Account
+# 关连帐户
+linkAccount-linkAccountHeader = 关连帐户
 linkAccount-alreadyAssociated =
-  The email <strong>{ $email }</strong> is
-  already associated with an account. If you would like to
-  link these enter your password.
+  电子邮件 <strong>{ $email }</strong>
+  已经与一个帐户相关联。如果你想
+  链接这些账户，输入您的密码。
 linkAccount-passwordLabel = Password
 linkAccount-passwordTextField =
   .label = Password
