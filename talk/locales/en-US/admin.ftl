@@ -144,66 +144,66 @@ linkAccount-alreadyAssociated =
   电子邮件 <strong>{ $email }</strong>
   已经与一个帐户相关联。如果你想
   链接这些账户，输入您的密码。
-linkAccount-passwordLabel = Password
+linkAccount-passwordLabel = 密码
 linkAccount-passwordTextField =
-  .label = Password
-linkAccount-linkAccountButton = Link Account
-linkAccount-useDifferentEmail = Use a different email address
+  .label = 密码
+linkAccount-linkAccountButton = 关连帐户
+linkAccount-useDifferentEmail = 使用其他电子邮件地址
 
-## Configure
+## 配置
 
-configure-experimentalFeature = Experimental Feature
+configure-experimentalFeature = 实验功能
 
 configure-unsavedInputWarning =
-  You have unsaved changes. Are you sure you want to continue?
+  您尚未保存更改。你确定你要继续吗？
 
-configure-sideBarNavigation-general = General
-configure-sideBarNavigation-authentication = Authentication
-configure-sideBarNavigation-moderation = Moderation
-configure-sideBarNavigation-organization = Organization
-configure-sideBarNavigation-moderationPhases = Moderation Phases
-configure-sideBarNavigation-advanced = Advanced
-configure-sideBarNavigation-email = Email
-configure-sideBarNavigation-bannedAndSuspectWords = Banned and Suspect Words
+configure-sideBarNavigation-general = 通用
+configure-sideBarNavigation-authentication = 身份验证
+configure-sideBarNavigation-moderation = 审核
+configure-sideBarNavigation-organization = 组织
+configure-sideBarNavigation-moderationPhases = 审核阶段
+configure-sideBarNavigation-advanced = 高级
+configure-sideBarNavigation-email = 电子邮件
+configure-sideBarNavigation-bannedAndSuspectWords = 禁用和可疑词
 configure-sideBarNavigation-slack = Slack
 configure-sideBarNavigation-webhooks = Webhooks
 
-configure-sideBar-saveChanges = Save Changes
-configure-configurationSubHeader = Configuration
-configure-onOffField-on = On
-configure-onOffField-off = Off
-configure-radioButton-allow = Allow
-configure-radioButton-dontAllow = Don't allow
+configure-sideBar-saveChanges = 保存更改
+configure-configurationSubHeader = 配置
+configure-onOffField-on = 开
+configure-onOffField-off = 关
+configure-radioButton-allow = 允许
+configure-radioButton-dontAllow = 不允许
 
-### Moderation Phases
+### 审核阶段
 
-configure-moderationPhases-generatedAt = KEY GENERATED AT:
+configure-moderationPhases-generatedAt = 密钥生成于：
   { DATETIME($date, year: "numeric", month: "numeric", day: "numeric", hour: "numeric", minute: "numeric") }
-configure-moderationPhases-phaseNotFound = External moderation phase not found
+configure-moderationPhases-phaseNotFound = 找不到外部审核阶段
 configure-moderationPhases-experimentalFeature =
-  The custom moderation phases feature is currently in active development.
-  Please <ContactUsLink>contact us with any feedback or requests</ContactUsLink>.
-configure-moderationPhases-header-title = Moderation Phases
+  自定义审核阶段功能目前正在积极开发中。
+  <ContactUsLink>如有任何反馈或要求请与我们联系</ContactUsLink>。
+configure-moderationPhases-header-title = 审核阶段
 configure-moderationPhases-description =
-  Configure a external moderation phase to automate some moderation
-  actions. Moderation requests will be JSON encoded and signed. To
-  learn more about moderation requests, visit our <externalLink>docs</externalLink>.
+  配置外部审核阶段以自动化审核。
+  审核请求将以JSON编码并签名。
+  要了解有关审核请求的更多信息，请访问我们的< externalLink > docs </ externalLink >。
 configure-moderationPhases-addExternalModerationPhaseButton =
-  Add external moderation phase
-configure-moderationPhases-moderationPhases = Moderation Phases
-configure-moderationPhases-name = Name
-configure-moderationPhases-status = Status
+  添加外部审核阶段
+configure-moderationPhases-moderationPhases = 审核阶段
+configure-moderationPhases-name = 名称
+configure-moderationPhases-status = 状态
 configure-moderationPhases-noExternalModerationPhases =
-  There are no external moderation phases configured, add one above.
-configure-moderationPhases-enabledModerationPhase = Enabled
-configure-moderationPhases-disableModerationPhase = Disabled
-configure-moderationPhases-detailsButton = Details <icon>keyboard_arrow_right</icon>
-configure-moderationPhases-addExternalModerationPhase = Add external moderation phase
-configure-moderationPhases-updateExternalModerationPhaseButton = Update details
-configure-moderationPhases-cancelButton = Cancel
-configure-moderationPhases-format = Comment Body Format
-configure-moderationPhases-endpointURL = Callback URL
-configure-moderationPhases-timeout = Timeout
+  没有配置外部审核阶段，请在上面添加一个。
+configure-moderationPhases-enabledModerationPhase = 启用
+configure-moderationPhases-disableModerationPhase = 禁用
+configure-moderationPhases-detailsButton = 详细信息 <icon>keyboard_arrow_right</icon>
+configure-moderationPhases-addExternalModerationPhase = 添加外部审核阶段
+configure-moderationPhases-updateExternalModerationPhaseButton = 更新详细信息
+configure-moderationPhases-cancelButton = 取消
+configure-moderationPhases-format = 注释正文格式
+configure-moderationPhases-endpointURL = 回调URL
+configure-moderationPhases-timeout = 超时
 configure-moderationPhases-timeout-details =
   The time that Coral will wait for your moderation response in milliseconds.
 configure-moderationPhases-format-details =
