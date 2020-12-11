@@ -378,32 +378,32 @@ configure-general-guidelines-explanation =
   < externalLink > https://www.markdownguide.org/cheat-sheet/ </ externalLink >
 configure-general-guidelines-showCommunityGuidelines = 显示社区准则摘要
 
-#### Bio
-configure-general-memberBio-title = Member bios
+#### 简历
+configure-general-memberBio-title = 成员简历
 configure-general-memberBio-explanation =
-  Allow commenters to add a bio to their profile. Note: This can increase moderator workload as member bios can be reported.
-configure-general-memberBio-label = Allow member bios
+  允许评论者在个人资料中添加个人简介。注意：这可以增加主持人的工作量，因为成员的个人资料可能会被举报。
+configure-general-memberBio-label = 允许成员简历
 
-#### Locale
-configure-general-locale-language = Language
-configure-general-locale-chooseLanguage = Choose the language for your Coral community.
+#### 本地化
+configure-general-locale-language = 语言
+configure-general-locale-chooseLanguage = 选择您的评论系统社区的语言。
 
-#### Sitewide Commenting
-configure-general-sitewideCommenting-title = Sitewide commenting
+#### 网站范围内的评论
+configure-general-sitewideCommenting-title = 网站范围内的评论
 configure-general-sitewideCommenting-explanation =
-  Open or close comment streams for new comments sitewide.
-  When new comments are turned off, new comments cannot be
-  submitted, but existing comments can continue to receive
-  reactions, be reported, and be shared.
+  打开或关闭整个网站上新评论的评论流。
+  关闭新评论后，将无法添加新评论
+  但现有评论可以继续收到
+  回复，举报和分享。
 configure-general-sitewideCommenting-enableNewCommentsSitewide =
-  Enable new comments sitewide
+  在整个网站范围内启用新评论
 configure-general-sitewideCommenting-onCommentStreamsOpened =
-  On - Comment streams opened for new comments
+  开启-已打开评论流以接收新评论
 configure-general-sitewideCommenting-offCommentStreamsClosed =
-  Off - Comment streams closed for new comments
-configure-general-sitewideCommenting-message = Sitewide closed comments message
+  关闭-已关闭新增评论流
+configure-general-sitewideCommenting-message = 网站范围内已关闭的评论消息
 configure-general-sitewideCommenting-messageExplanation =
-  Write a message that will be displayed when comment streams are closed sitewide
+  编写一条消息，该消息将在站点范围内关闭评论流时显示
 
 #### Embed Links
 configure-general-embedLinks-title = Embedded media
