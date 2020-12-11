@@ -320,63 +320,63 @@ configure-webhooks-selectedEvents =
     *[other] 事件
   } 已选择。
 configure-webhooks-selectAnEvent =
-  Select events above or <button>receive all events</button>.
-configure-webhooks-configureWebhookEndpoint = Configure webhook endpoint
+  选择上方的事件或<button>接收所有事件</button>.
+configure-webhooks-configureWebhookEndpoint = 配置webhook endpoint
 configure-webhooks-confirmEnable =
-  Enabling the webhook endpoint will start to send events to this URL. Are you sure you want to continue?
+  启用webhook endpoint将开始向该URL发送事件。你确定你要继续吗？
 configure-webhooks-confirmDisable =
-  Disabling this webhook endpoint will stop any new events from being sent to this URL. Are you sure you want to continue?
+  禁用此webhook endpoint将停止将任何新事件发送到此URL。你确定你要继续吗？
 configure-webhooks-confirmDelete =
-  Deleting this webhook endpoint will stop any new events from being sent to this URL, and remove all the associated settings with this webhook endpoint. Are you sure you want to continue?
-configure-webhooks-dangerZone = Danger Zone
-configure-webhooks-rotateSigningSecret = Rotate signing secret
+  删除此webhook endpoint 将停止将任何新事件发送到此URL，并删除与此webhook endpoint端点有关的所有关联设置。你确定你要继续吗？
+configure-webhooks-dangerZone = 危险区域
+configure-webhooks-rotateSigningSecret = 轮换签署密钥
 configure-webhooks-rotateSigningSecretDescription =
-  Rotating the signing secret will allow to you to safely replace a signing
-  secret used in production with a delay.
-configure-webhooks-rotateSigningSecretButton = Rotate signing secret
+  轮换签名秘钥将使您安全地替换
+  用于生产中的延迟签署的密钥。
+configure-webhooks-rotateSigningSecretButton = 轮换签署密钥
 configure-webhooks-rotateSigningSecretHelper =
-  After it expires, signatures will no longer be generated with the old secret.
+  过期后， 签名将不再使用旧的秘钥生成。
 configure-webhooks-rotateSigningSecretSuccessUseNewSecret =
-  Webhook endpoint signing secret has been rotated. Please ensure
-  you update your integrations to use the new secret below.
-configure-webhooks-disableEndpoint = Disable endpoint
+  Webhook endpoint 签名密钥已轮换。 请确保你
+  以使用下面的新秘密更新您的集成。
+configure-webhooks-disableEndpoint = 禁用 endpoint
 configure-webhooks-disableEndpointDescription =
-  This endpoint is current enabled. By disabling this endpoint no new events
-  will be sent to the URL provided.
-configure-webhooks-disableEndpointButton = Disable endpoint
-configure-webhooks-enableEndpoint = Enable endpoint
+  endpoint当前是启用的。 禁用endpoint新事件
+  不会发送到提供的URL。
+configure-webhooks-disableEndpointButton = 禁用endpoint
+configure-webhooks-enableEndpoint = 启用endpoint
 configure-webhooks-enableEndpointDescription =
-  This endpoint is current disabled. By enabling this endpoint new events will
-  be sent to the URL provided.
-configure-webhooks-enableEndpointButton = Enable endpoint
-configure-webhooks-deleteEndpoint = Delete endpoint
+  该端点当前被禁用。启用此端点，新事件将
+  发送到提供的URL。
+configure-webhooks-enableEndpointButton = 启用endpoint
+configure-webhooks-deleteEndpoint = 删除endpoint
 configure-webhooks-deleteEndpointDescription =
-  Deleting the endpoint will prevent any new events from being sent to the URL
-  provided.
-configure-webhooks-deleteEndpointButton = Delete endpoint
-configure-webhooks-endpointStatus = Endpoint status
-configure-webhooks-signingSecret = Signing secret
+  删除endpoint将阻止任何新事件发送到
+  URL。
+configure-webhooks-deleteEndpointButton = 删除 endpoint
+configure-webhooks-endpointStatus = Endpoint 状态
+configure-webhooks-signingSecret = 签署密钥
 configure-webhooks-signingSecretDescription =
-  The following signing secret is used to sign request payloads sent
-  to the URL. To learn more about webhook signing, visit our
-  <externalLink>Webhook Guide</externalLink>.
-configure-webhooks-expiresOldSecret = Expire the old secret
-configure-webhooks-expiresOldSecretImmediately = Immediately
+  以下签名密钥是用来签署请求发送到URL的有效负载。
+  要了解有关webhook签名的更多信息，请访问我们的
+  < externalLink > Webhook指南</ externalLink >。
+configure-webhooks-expiresOldSecret = 使旧密钥失效
+configure-webhooks-expiresOldSecretImmediately = 立即
 configure-webhooks-expiresOldSecretHoursFromNow =
   { $hours ->
-    [1] 1 hour
-    *[other] { $hours } hours
+    [1] 1 小时
+    *[other] { $hours } 小时
   }  from now
-configure-webhooks-detailsButton = Details <icon>keyboard_arrow_right</icon>
+configure-webhooks-detailsButton = 详细信息 <icon>keyboard_arrow_right</icon>
 
-### General
-configure-general-guidelines-title = Community guidelines summary
+### 通用
+configure-general-guidelines-title = 社区准则摘要
 configure-general-guidelines-explanation =
-  This will appear above the comments sitewide.
-  You can format the text using Markdown.
-  More information on how to use Markdown
-  here: <externalLink>https://www.markdownguide.org/cheat-sheet/</externalLink>
-configure-general-guidelines-showCommunityGuidelines = Show community guidelines summary
+  这将显示在整个站点的评论上方。
+  您可以使用Markdown设置文本格式。
+  有关如何使用Markdown的更多信息：
+  < externalLink > https://www.markdownguide.org/cheat-sheet/ </ externalLink >
+configure-general-guidelines-showCommunityGuidelines = 显示社区准则摘要
 
 #### Bio
 configure-general-memberBio-title = Member bios
