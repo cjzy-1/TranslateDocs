@@ -1183,130 +1183,130 @@ community-invite-role-moderator =
   reject and feature comments). Can configure individual
   articles but no site-wide configuration privileges.
 community-invite-role-admin =
-  <strong>Admin role:</strong> Receives a “Staff” badge, and
-  comments are automatically approved. Has full
-  moderation privileges (approve, reject and feature
-  comments). Can configure individual articles and has
-  site-wide configuration privileges.
-community-invite-invitationsSent = Your invitations have been sent!
-community-invite-close = Close
-community-invite-invite = Invite
+  <strong>管理员角色:</strong> 收到“员工”徽章，
+  评论将自动获得批准。 具有全部审核权限
+   (批准， 拒绝和推荐评论)，
+   可以配置个人文章并具有
+   站点范围的配置权限。
+community-invite-invitationsSent = 您的邀请已发送！
+community-invite-close = 关闭
+community-invite-invite = 邀请
 
 community-warnModal-success =
-  A warning has been sent to <strong>{ $username }</strong>.
+  已向<strong>{ $username }</strong>发送警告。
 community-warnModal-success-close = Ok
-community-warnModal-areYouSure = Warn <strong>{ $username }</strong>?
-community-warnModal-consequence = A warning can improve a commenter's conduct without a suspension or ban. The user must acknowledge the warning before they can continue commenting.
-community-warnModal-message-label = Message
-community-warnModal-message-required = Required
-community-warnModal-message-description = Explain to this user how they should change their behavior on your site.
-community-warnModal-cancel = Cancel
-community-warnModal-warnUser = Warn user
-community-userStatus-warn = Warn
+community-warnModal-areYouSure = 警告 <strong>{ $username }</strong>?
+community-warnModal-consequence = 警告可以改善评论者的行为，而不会被停用或禁止。用户必须先确认警告，然后才能继续评论。
+community-warnModal-message-label = 消息
+community-warnModal-message-required = 必需
+community-warnModal-message-description = 向该用户解释他们应如何更改其在您网站上的行为。
+community-warnModal-cancel = 取消
+community-warnModal-warnUser = 警告用户
+community-userStatus-warn = 警告
 
 ## Stories
-stories-emptyMessage = There are currently no published stories.
-stories-noMatchMessage = We could not find any stories matching your criteria.
+stories-emptyMessage = 当前没有已发布的故事。
+stories-noMatchMessage = 我们找不到符合您条件的故事。
 
 stories-filter-searchField =
-  .placeholder = Search by story title or author...
-  .aria-label = Search by story title or author
+  .placeholder = 按故事标题或作者搜索...
+  .aria-label = 按故事标题或作者搜索
 stories-filter-searchButton =
-  .aria-label = Search
+  .aria-label = 搜索
 
 stories-filter-statusSelectField =
-  .aria-label = Search by status
+  .aria-label = 按状态搜索
 
 stories-changeStatusButton =
-  .aria-label = Change status
+  .aria-label = 更改状态
 
-stories-filter-search = Search
-stories-filter-showMe = Show Me
-stories-filter-allStories = All Stories
-stories-filter-openStories = Open Stories
-stories-filter-closedStories = Closed Stories
+stories-filter-search = 搜索
+stories-filter-showMe = 向我展示
+stories-filter-allStories = 所有故事
+stories-filter-openStories = 开放故事
+stories-filter-closedStories = 结束故事
 
-stories-column-title = Title
-stories-column-author = Author
-stories-column-publishDate = Publish Date
-stories-column-status = Status
-stories-column-clickToModerate = Click title to moderate story
-stories-column-reportedCount = Reported
-stories-column-pendingCount = Pending
-stories-column-publishedCount = Published
+stories-column-title = 标题
+stories-column-author = 作者
+stories-column-publishDate = 发布日期
+stories-column-status = 状态
+stories-column-clickToModerate = 单击标题以审核故事
+stories-column-reportedCount = 举报的
+stories-column-pendingCount = 待定
+stories-column-publishedCount = 已发布
 
 stories-status-popover =
-  .description = A dropdown to change the story status
+  .description = 用于更改故事状态的下拉菜单
 
-## Invite
+## 邀请
 
-invite-youHaveBeenInvited = You've been invited to join { $organizationName }
-invite-finishSettingUpAccount = Finish setting up the account for:
-invite-createAccount = Create Account
-invite-passwordLabel = Password
-invite-passwordDescription = Must be at least { $minLength } characters
+invite-youHaveBeenInvited = 邀请您加入{ $organizationName }
+invite-finishSettingUpAccount = 完成帐户设置：
+invite-createAccount = 创建帐户
+invite-passwordLabel = 密码
+invite-passwordDescription = 必须至少包含{ $minLength }必须至少包含
 invite-passwordTextField =
-  .placeholder = Password
-invite-usernameLabel = Username
-invite-usernameDescription = You may use “_” and “.”
+  .placeholder = 密码
+invite-usernameLabel = 用户名
+invite-usernameDescription = 您可以使用 “_” 和 “.”
 invite-usernameTextField =
-  .placeholder = Username
-invite-oopsSorry = Oops Sorry!
-invite-successful = Your account has been created
-invite-youMayNowSignIn = You may now sign-in to { -product-name } using:
-invite-goToAdmin = Go to { -product-name } Admin
-invite-goToOrganization = Go to { $organizationName }
+  .placeholder = 用户名
+invite-oopsSorry = 抱歉！
+invite-successful = 抱歉！
+invite-youMayNowSignIn = 您现在可以使用以下方式登录使用:
+invite-goToAdmin = 转到管理员
+invite-goToOrganization = 转到{ $organizationName }
 invite-tokenNotFound =
-  The specified link is invalid, check to see if it was copied correctly.
+  指定的链接无效，请检查链接是否被正确复制。
 
-userDetails-banned-on = <strong>Banned on</strong> { $timestamp }
+userDetails-banned-on = <strong>封禁于/strong> { $timestamp }
 userDetails-banned-by = <strong>by</strong> { $username }
-userDetails-suspended-by = <strong>Suspended by</strong> { $username }
-userDetails-suspension-start = <strong>Start:</strong> { $timestamp }
-userDetails-suspension-end = <strong>End:</strong> { $timestamp }
+userDetails-suspended-by = 由{ $username }<strong>停用</strong> 
+userDetails-suspension-start = <strong>开始:</strong> { $timestamp }
+userDetails-suspension-end = <strong>结束:</strong> { $timestamp }
 
-userDetails-warned-on = <strong>Warned on</strong> { $timestamp }
+userDetails-warned-on = <strong>警告</strong> { $timestamp }
 userDetails-warned-by = <strong>by</strong> { $username }
-userDetails-warned-explanation = User has not acknowledged the warning.
+userDetails-warned-explanation = 用户尚未确认该警告。
 
-configure-general-reactions-title = Reactions
+configure-general-reactions-title = 反应
 configure-general-reactions-explanation =
-  Allow your community to engage with one another and express themselves
-  with one-click reactions. By default, Coral allows commenters to "Respect"
-  each other's comments.
-configure-general-reactions-label = Reaction label
+  让您的社区互相参与并一键表达
+  默认情况下，Coral允许评论者“尊重”
+  对方的评论。
+configure-general-reactions-label = 反应标签
 configure-general-reactions-input =
-  .placeholder = E.g. Respect
-configure-general-reactions-active-label = Active reaction label
+  .placeholder = 例如 尊重
+configure-general-reactions-active-label = 活跃反应标签
 configure-general-reactions-active-input =
-  .placeholder = E.g. Respected
-configure-general-reactions-sort-label = Sort label
+  .placeholder = 例如 尊重
+configure-general-reactions-sort-label = 排序标签
 configure-general-reactions-sort-input =
-  .placeholder = E.g. Most Respected
-configure-general-reactions-preview = Preview
-configure-general-reaction-sortMenu-sortBy = Sort by
+  .placeholder = 例如 最受尊敬的人
+configure-general-reactions-preview = 预览
+configure-general-reaction-sortMenu-sortBy = 排序方式
 
-configure-general-staff-title = Staff member badge
+configure-general-staff-title = 工作人员徽章
 configure-general-staff-explanation =
-  Show a custom badge for staff members of your organization. This badge
-  appears on the comment stream and in the admin interface.
-configure-general-staff-label = Badge text
+  为组织的工作人员显示自定义徽章。这个徽章
+  出现在评论流和管理界面中。
+configure-general-staff-label = 徽章文本
 configure-general-staff-input =
-  .placeholder = E.g. Staff
+  .placeholder = 例如 工作人员
 configure-general-staff-moderator-input =
-  .placeholder = E.g. Moderator
+  .placeholder = 例如 审核人员
 configure-general-staff-admin-input =
-  .placeholder = E.g. Admin
-configure-general-staff-preview = Preview
-configure-general-staff-moderator-preview = Preview
-configure-general-staff-admin-preview = Preview
-configure-general-staff-member-label = Staff member badge text
-configure-general-staff-admin-label = Admin badge text
-configure-general-staff-moderator-label = Moderator badge text
+  .placeholder = 例如 管理员
+configure-general-staff-preview = 预览
+configure-general-staff-moderator-preview = 预览
+configure-general-staff-admin-preview = 预览
+configure-general-staff-member-label = 工作人员徽章文本
+configure-general-staff-admin-label = 管理员徽章文本
+configure-general-staff-moderator-label = 审核人员徽章文本
 
-configure-general-rte-title = Rich-text comments
-configure-general-rte-express = Give your community more ways to express themselves beyond plain text with rich-text formatting.
-configure-general-rte-richTextComments = Rich-text comments
+configure-general-rte-title = 富文本评论
+configure-general-rte-express = 提供给您的社区更多方式，以纯文本格式使用富文本格式表达自己。
+configure-general-rte-richTextComments = 富文本评论
 configure-general-rte-onBasicFeatures = On - 粗体,斜体,块引用,符号列表
 configure-general-rte-additional = 其他富文本选项
 configure-general-rte-strikethrough = 删除线
