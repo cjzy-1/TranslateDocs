@@ -669,10 +669,10 @@ configure-auth-oidc-issuerDescription =
 configure-auth-oidc-authorizationURL = Authorization URL
 configure-auth-oidc-tokenURL = Token URL
 configure-auth-oidc-jwksURI = JWKS URI
-configure-auth-oidc-useLoginOn = Use OpenID Connect login on
+configure-auth-oidc-useLoginOn = 使用OpenID Connect登录
 
-configure-auth-settings = Session settings
-configure-auth-settings-session-duration-label = Session duration
+configure-auth-settings = Session 设置
+configure-auth-settings-session-duration-label = Session 持续时间
 
 ### Moderation
 
@@ -1307,92 +1307,92 @@ configure-general-staff-moderator-label = Moderator badge text
 configure-general-rte-title = Rich-text comments
 configure-general-rte-express = Give your community more ways to express themselves beyond plain text with rich-text formatting.
 configure-general-rte-richTextComments = Rich-text comments
-configure-general-rte-onBasicFeatures = On - bold, italics, block quotes, and bulleted lists
-configure-general-rte-additional = Additional rich-text options
-configure-general-rte-strikethrough = Strikethrough
-configure-general-rte-spoiler = Spoiler
+configure-general-rte-onBasicFeatures = On - 粗体,斜体,块引用,符号列表
+configure-general-rte-additional = 其他富文本选项
+configure-general-rte-strikethrough = 删除线
+configure-general-rte-spoiler = 内容简介
 configure-general-rte-spoilerDesc =
-  Words and phrases formatted as Spoiler are hidden behind a
-  dark background until the reader chooses to reveal the text.
+  内容简介的单词和短语格式为隐藏于暗的背景
+  在读者选择时显示。
 
 configure-account-features-title = Commenter account management features
 configure-account-features-explanation =
-  You can enable and disable certain features for your commenters to use
-  within their Profile. These features also assist towards GDPR
-  compliance.
-configure-account-features-allow = Allow users to:
-configure-account-features-change-usernames = Change their usernames
-configure-account-features-change-usernames-details = Usernames can be changed once every 14 days.
-configure-account-features-yes = Yes
-configure-account-features-no = No
-configure-account-features-download-comments = Download their comments
-configure-account-features-download-comments-details = Commenters can download a csv of their comment history.
-configure-account-features-delete-account = Delete their account
+  您可以启用和禁用评论者要在他们的个人资料中使用的
+  某些功能。这些功能也有助于GDPR
+  合规性。
+configure-account-features-allow = 允许用户执行以下操作：
+configure-account-features-change-usernames = 更改其用户名
+configure-account-features-change-usernames-details = 可以每14天更改一次用户名。
+configure-account-features-yes = 是
+configure-account-features-no = 否
+configure-account-features-download-comments = 下载他们的评论
+configure-account-features-download-comments-details = 评论者可以下载其评论历史记录的csv。
+configure-account-features-delete-account = 删除其帐户
 configure-account-features-delete-account-details =
-  Removes all of their comment data, username, and email address from the site and the database.
+  从站点和数据库中删除其所有评论数据，用户名和电子邮件地址。
 
 configure-account-features-delete-account-fieldDescriptions =
-  Removes all of their comment data, username, and email
-  address from the site and the database.
+  删除其所有评论数据，用户名和电子邮件
+  网站和数据库中的地址。
 
-configure-advanced-stories = Story creation
-configure-advanced-stories-explanation = Advanced settings for how stories are created within Coral.
-configure-advanced-stories-lazy = Lazy story creation
-configure-advanced-stories-lazy-detail = Enable stories to be automatically created when they are published from your CMS.
-configure-advanced-stories-scraping = Story scraping
-configure-advanced-stories-scraping-detail = Enable story metadata to be automatically scraped when they are published from your CMS.
+configure-advanced-stories = 创作内容
+configure-advanced-stories-explanation = 用于在Coral中创作内容的高级设置。
+configure-advanced-stories-lazy = 懒人内容创作
+configure-advanced-stories-lazy-detail = 开启故事元数在发布时据被自动scraped。
+configure-advanced-stories-scraping = 故事scraping
+configure-advanced-stories-scraping-detail = 开启故事元数在发布时据被自动scraped。
 configure-advanced-stories-proxy = Scraper proxy url
 configure-advanced-stories-proxy-detail =
-  When specified, allows scraping requests to use the provided
-  proxy. All requests will then be passed through the appropriote
-  proxy as parsed by the <externalLink>npm proxy-agent</externalLink> package.
-configure-advanced-stories-custom-user-agent = Custom Scraper User Agent Header
+  指定后，允许scraping请求使用提供的
+  proxy。 然后，所有请求将通过适当的
+  proxy由<externalLink>npm proxy-agent</externalLink> 包解析。
+configure-advanced-stories-custom-user-agent = 自定义Scraper用户 Agent Header
 configure-advanced-stories-custom-user-agent-detail =
-  When specified, overrides the <code>User-Agent</code> header sent with each
-  scrape request.
+  指定后， 将覆盖 <code>User-Agent</code> header发送的
+  每一个Scraper请求。
 
-commentAuthor-status-banned = Banned
-commentAuthor-status-premod = Pre-mod
-commentAuthor-status-suspended = Suspended
+commentAuthor-status-banned = 封禁
+commentAuthor-status-premod = 预修改
+commentAuthor-status-suspended = 停用
 
-hotkeysModal-title = Keyboard shortcuts
-hotkeysModal-navigation-shortcuts = Navigation shortcuts
-hotkeysModal-shortcuts-next = Next comment
-hotkeysModal-shortcuts-prev = Previous comment
-hotkeysModal-shortcuts-search = Open search
-hotkeysModal-shortcuts-jump = Jump to specific queue
-hotkeysModal-shortcuts-switch = Switch queues
-hotkeysModal-shortcuts-toggle = Toggle shortcuts help
-hotkeysModal-shortcuts-single-view = Single comment view
-hotkeysModal-moderation-decisions = Moderation decisions
-hotkeysModal-shortcuts-approve = Approve
-hotkeysModal-shortcuts-reject = Reject
-hotkeysModal-shortcuts-ban = Ban comment author
-hotkeysModal-shortcuts-zen = Toggle single-comment view
+hotkeysModal-title = 键盘快捷键
+hotkeysModal-navigation-shortcuts = 导航快捷方式
+hotkeysModal-shortcuts-next = 下一条评论
+hotkeysModal-shortcuts-prev = 以前的评论
+hotkeysModal-shortcuts-search = 打开搜索
+hotkeysModal-shortcuts-jump = 跳转到特定队列
+hotkeysModal-shortcuts-switch = 切换队列
+hotkeysModal-shortcuts-toggle = 切换快捷方式帮助
+hotkeysModal-shortcuts-single-view = 单评论视图
+hotkeysModal-moderation-decisions = 审核决定
+hotkeysModal-shortcuts-approve = 批准
+hotkeysModal-shortcuts-reject = 拒绝
+hotkeysModal-shortcuts-ban = 封禁评论作者
+hotkeysModal-shortcuts-zen = 切换单评论视图
 
-authcheck-network-error = A network error occurred. Please refresh the page.
+authcheck-network-error = 发生网络错误。请刷新页面。
 
-dashboard-heading-last-updated = Last updated:
+dashboard-heading-last-updated = 最近更新：
 
-dashboard-today-heading = Today's activity
-dashboard-today-new-comments = New comments
-dashboard-alltime-new-comments = All time total
-dashboard-today-rejections = Rejection rate
-dashboard-alltime-rejections = All time average
-dashboard-today-staff-comments = Staff comments
-dashboard-alltime-staff-comments = All time total
-dashboard-today-signups = New community members
-dashboard-alltime-signups = Total members
-dashboard-today-bans = Banned members
-dashboard-alltime-bans = Total banned members
+dashboard-today-heading = 今日活跃度
+dashboard-today-new-comments = 新评论
+dashboard-alltime-new-comments = 所有时间总计
+dashboard-today-rejections = 拒绝率
+dashboard-alltime-rejections = 所有时间平均
+dashboard-today-staff-comments = 员工评论
+dashboard-alltime-staff-comments = 所有时间共计
+dashboard-today-signups = 新的社区成员
+dashboard-alltime-signups = 成员总数
+dashboard-today-bans = 封禁会员
+dashboard-alltime-bans = 封禁会员总数
 
-dashboard-top-stories-today-heading = Today's most commented stories
-dashboard-top-stories-table-header-story = Story
-dashboard-top-stories-table-header-comments = Comments
-dashboard-top-stories-no-comments = No comments today
+dashboard-top-stories-today-heading = 今天评论最多的故事
+dashboard-top-stories-table-header-story = 故事
+dashboard-top-stories-table-header-comments = 评论
+dashboard-top-stories-no-comments = 天无评论
 
-dashboard-commenters-activity-heading = New community members this week
+dashboard-commenters-activity-heading = 本周新的社区成员
 
-dashboard-comment-activity-heading = Hourly comment activity
-dashboard-comment-activity-tooltip-comments = Comments
-dashboard-comment-activity-legend = Average last 3 days
+dashboard-comment-activity-heading = 每小时评论活跃度
+dashboard-comment-activity-tooltip-comments = 评论
+dashboard-comment-activity-legend = 最近3天的平均值
