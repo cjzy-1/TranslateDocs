@@ -405,267 +405,267 @@ configure-general-sitewideCommenting-message = 网站范围内已关闭的评论
 configure-general-sitewideCommenting-messageExplanation =
   编写一条消息，该消息将在站点范围内关闭评论流时显示
 
-#### Embed Links
-configure-general-embedLinks-title = Embedded media
-configure-general-embedLinks-desc = Allow commenters to add a YouTube video, Tweet or GIF from GIPHY's library to the end of their comment
-configure-general-embedLinks-enableTwitterEmbeds = Allow Twitter embeds
-configure-general-embedLinks-enableYouTubeEmbeds = Allow YouTube embeds
-configure-general-embedLinks-enableGiphyEmbeds = Allow GIFs from GIPHY
-configure-general-embedLinks-enableExternalEmbeds = Enable external media
+#### 嵌入链接
+configure-general-embedLinks-title = 嵌入式媒体
+configure-general-embedLinks-desc = 允许评论者将YouTube视频，Tweet或GIPHY库中的GIF添加到评论的末尾
+configure-general-embedLinks-enableTwitterEmbeds = 允许Twitter嵌入
+configure-general-embedLinks-enableYouTubeEmbeds = 允许YouTube嵌入
+configure-general-embedLinks-enableGiphyEmbeds = 允许来自GIPHY的GIF
+configure-general-embedLinks-enableExternalEmbeds = 启用外部媒体
 
-configure-general-embedLinks-On = Yes
-configure-general-embedLinks-Off = No
+configure-general-embedLinks-On = 是
+configure-general-embedLinks-Off = 否
 
-configure-general-embedLinks-giphyMaxRating = GIF content rating
-configure-general-embedLinks-giphyMaxRating-desc = Select the maximum content rating for the GIFs that will appear in commenters’ search results
+configure-general-embedLinks-giphyMaxRating = GIF内容分级
+configure-general-embedLinks-giphyMaxRating-desc = 选择将出现在评论者搜索结果中的GIF的最大内容评级
 
 configure-general-embedLinks-giphyMaxRating-g = G
-configure-general-embedLinks-giphyMaxRating-g-desc = Content that is appropriate for all ages
+configure-general-embedLinks-giphyMaxRating-g-desc = 适合所有年龄段的内容
 configure-general-embedLinks-giphyMaxRating-pg = PG
-configure-general-embedLinks-giphyMaxRating-pg-desc = Content that is generally safe for everyone, but parental guidance for children is advised.
+configure-general-embedLinks-giphyMaxRating-pg-desc = 通常对所有人安全的内容，但建议孩子由家长指导。
 configure-general-embedLinks-giphyMaxRating-pg13 = PG-13
-configure-general-embedLinks-giphyMaxRating-pg13-desc = Mild sexual innuendos, mild substance use, mild profanity, or threatening images. May include images of semi-naked people, but DOES NOT show real human genitalia or nudity.
+configure-general-embedLinks-giphyMaxRating-pg13-desc = 轻度的性爱暗示，轻度的吸毒，轻度的亵渎或威胁性图像。可能包含半裸的人的图像，但不显示真实的人类生殖器或裸露内容。
 configure-general-embedLinks-giphyMaxRating-r = R
-configure-general-embedLinks-giphyMaxRating-r-desc = Strong language, strong sexual innuendo, violence, and illegal drug use; not suitable for teens or younger. No nudity.
+configure-general-embedLinks-giphyMaxRating-r-desc = 强烈的语言，强烈的性暗示，暴力和非法吸毒；不适合青少年或以下。没有裸体。
 
-configure-general-embedLinks-configuration = Configuration
+configure-general-embedLinks-configuration = 配置
 configure-general-embedLinks-configuration-desc =
-  For additional information on GIPHY’s API please visit: <externalLink>https://developers.giphy.com/docs/api</externalLink>
-configure-general-embedLinks-giphyAPIKey = GIPHY API key
+  有关GIPHY API的更多信息，请访问：< externalLink > https://developers.giphy.com/docs/api </ externalLink >
+configure-general-embedLinks-giphyAPIKey = GIPHY API密钥
 
 
-#### Configure Announcements
+#### 配置公告
 
-configure-general-announcements-title = Community announcement
+configure-general-announcements-title = 社区公告
 configure-general-announcements-description =
-  Add a temporary announcement that will appear at the top of all of your organization’s comment streams for a specific amount of time.
-configure-general-announcements-delete = Remove announcement
-configure-general-announcements-add = Add announcement
-configure-general-announcements-start = Start announcement
-configure-general-announcements-cancel = Cancel
-configure-general-announcements-current-label = Current announcement
+  添加一个临时公告，该公告将在特定时间段内显示在您组织的所有评论流的顶部。
+configure-general-announcements-delete = 删除公告
+configure-general-announcements-add = 添加公告
+configure-general-announcements-start = 开始公告
+configure-general-announcements-cancel = 取消
+configure-general-announcements-current-label = 当前公告
 configure-general-announcements-current-duration =
-  This announcement will automatically end on: { $timestamp }
-configure-general-announcements-duration = Show this announcement for
+  该公告将自动于：{ $timestamp }终止
+configure-general-announcements-duration = 显示此公告
 
-#### Closing Comment Streams
-configure-general-closingCommentStreams-title = Closing comment streams
-configure-general-closingCommentStreams-explanation = Set comment streams to close after a defined period of time after a story’s publication
-configure-general-closingCommentStreams-closeCommentsAutomatically = Close comments automatically
-configure-general-closingCommentStreams-closeCommentsAfter = Close comments after
+#### 关闭评论流
+configure-general-closingCommentStreams-title = 关闭评论流
+configure-general-closingCommentStreams-explanation = 将评论流设置为在故事发布后定义的时间段后关闭
+configure-general-closingCommentStreams-closeCommentsAutomatically = 自动关闭评论
+configure-general-closingCommentStreams-closeCommentsAfter = 之后关闭评论
 
-#### Comment Length
-configure-general-commentLength-title = Comment length
-configure-general-commentLength-maxCommentLength = Maximum comment length
+#### 评论长度
+configure-general-commentLength-title = 评论长度
+configure-general-commentLength-maxCommentLength = 最大评论长度
 configure-general-commentLength-setLimit =
-  Set minimum and maximum comment length requirements.
-  Blank spaces at the beginning and the end of a comment will be trimmed.
-configure-general-commentLength-limitCommentLength = Limit comment length
-configure-general-commentLength-minCommentLength = Minimum comment length
-configure-general-commentLength-characters = Characters
+  设置最小和最大评论长度要求。
+  注释开头和结尾的空格将被剪裁。
+configure-general-commentLength-limitCommentLength = 限制评论长度
+configure-general-commentLength-minCommentLength = 最小评论长度
+configure-general-commentLength-characters = 字符
 configure-general-commentLength-textField =
-  .placeholder = No limit
+  .placeholder = 无限制
 configure-general-commentLength-validateLongerThanMin =
-  Please enter a number longer than the minimum length
+  请输入比最小长度长的数字
 
-#### Comment Editing
-configure-general-commentEditing-title = Comment editing
+#### 评论编辑
+configure-general-commentEditing-title = 评论编辑
 configure-general-commentEditing-explanation =
-  Set a limit on how long commenters have to edit their comments sitewide.
-  Edited comments are marked as (Edited) on the comment stream and the
-  moderation panel.
-configure-general-commentEditing-commentEditTimeFrame = Comment edit timeframe
-configure-general-commentEditing-seconds = Seconds
+  对评论者必须在网站上编辑评论的时间设置一个限制。
+  编辑后的评论在评论流上和审核面板标记为（编辑）。
+  
+configure-general-commentEditing-commentEditTimeFrame = 评论编辑时间范围
+configure-general-commentEditing-seconds = 秒
 
-#### Closed Stream Message
-configure-general-closedStreamMessage-title = Closed comment stream message
-configure-general-closedStreamMessage-explanation = Write a message to appear when a story is closed for commenting.
+#### 关闭流消息
+configure-general-closedStreamMessage-title = 已关闭评论流消息
+configure-general-closedStreamMessage-explanation = 编写一条消息，当故事关闭评论时显示。
 
-### Organization
-configure-organization-name = Organization name
-configure-organization-sites = Sites
+### 组织
+configure-organization-name = 组织名称
+configure-organization-sites = 站点
 configure-organization-nameExplanation =
-  Your organization name will appear on emails sent by { -product-name } to your community and organization members.
+  您的组织名称将显示在{ -product-name }发送给您的社区和组织成员的电子邮件中。
 configure-organization-sites-explanation =
-  Add a new site to your organization or edit an existing site's details.
-configure-organization-sites-add-site = <icon>add</icon> Add site
-configure-organization-email = Organization email
+  将新站点添加到您的组织或编辑现有站点的详细信息。
+configure-organization-sites-add-site = <icon>添加</icon> 添加站点
+configure-organization-email = 组织电子邮件
 configure-organization-emailExplanation =
-  This email address will be used as in emails and across the platform
-  for community members to get in touch with the organization should
-  they have any questions about the status of their accounts or
-  moderation questions.
-configure-organization-url = Organization URL
+  此电子邮件地址将在电子邮件中和整个平台中使用
+  让社区成员与组织保持联系
+  他们对自己的帐户状态有任何疑问，或者
+  审核的问题。
+configure-organization-url = 组织URL
 configure-organization-urlExplanation =
-  Your organization url will appear on emails sent by { -product-name } to your community and organization members.
+  您的组织网址将显示在{-product-name}发送给您的社区和组织成员的电子邮件中。
 
-### Sites
-configure-sites-site-details = Details <icon>keyboard_arrow_right</icon>
-configure-sites-add-new-site = Add a new site to { $site }
-configure-sites-add-success = { $site } has been added to { $org }
-configure-sites-edit-success = Changes to { $site } have been saved.
-configure-sites-site-form-name = Site name
-configure-sites-site-form-name-explanation = Site name will appear on emails sent by Coral to your community and organization members.
-configure-sites-site-form-url = Site URL
-configure-sites-site-form-url-explanation = This url will appear on emails sent by Coral to your community members.
-configure-sites-site-form-email = Site email address
-configure-sites-site-form-url-explanation = This email address is for community members to contact you with questions or if they need help. e.g. comments@yoursite.com
-configure-sites-site-form-domains = Site permitted domains
-configure-sites-site-form-domains-explanation = Domains where your Coral comment streams are allowed to be embedded (ex. http://localhost:3000, https://staging.domain.com, https://domain.com).
-configure-sites-site-form-submit = <icon>add</icon> Add site
-configure-sites-site-form-cancel = Cancel
-configure-sites-site-form-save = Save changes
-configure-sites-site-edit = Edit { $site } details
-configure-sites-site-form-embed-code = Embed code
-sites-emptyMessage = We could not find any sites matching your criteria.
-sites-selector-allSites = All sites
-sites-filter-sites-allSites = All sites
+### 网站
+configure-sites-site-details = 详细信息 <icon>keyboard_arrow_right</icon>
+configure-sites-add-new-site = 将新站点添加到 { $site }
+configure-sites-add-success = { $site }已添加到{ $org }
+configure-sites-edit-success = 对{$ site}的更改已保存。
+configure-sites-site-form-name = 站点名称
+configure-sites-site-form-name-explanation = 网站名称将显示在Coral发送给您的社区和组织成员的电子邮件中。
+configure-sites-site-form-url = 网站URL
+configure-sites-site-form-url-explanation = 该URL将显示在Coral发送给您的社区成员的电子邮件中。
+configure-sites-site-form-email = 网站电子邮件地址
+configure-sites-site-form-url-explanation = 此电子邮件地址供社区成员与您联系或有疑问或需要帮助时与您联系。例如comments@yoursite.com
+configure-sites-site-form-domains = 站点允许的域
+configure-sites-site-form-domains-explanation = 允许嵌入您的Coral评论流的域 (如. http://localhost:3000, https://staging.domain.com, https://domain.com).
+configure-sites-site-form-submit = <icon>添加</icon> 添加站点
+configure-sites-site-form-cancel = 取消
+configure-sites-site-form-save = 保存更改
+configure-sites-site-edit = 编辑{ $site }详细信息
+configure-sites-site-form-embed-code = 嵌入代码
+sites-emptyMessage = 我们找不到符合您条件的任何站点。
+sites-selector-allSites = 所有站点
+sites-filter-sites-allSites = 所有站点
 
-site-selector-all-sites = All sites
-stories-filter-sites-allSites = All sites
-stories-filter-statuses = Status
-stories-column-site = Site
-site-table-siteName = Site name
-stories-filter-sites = Site
+site-selector-all-sites = 所有站点
+stories-filter-sites-allSites = 所有站点
+stories-filter-statuses = 状态
+stories-column-site = 网站
+site-table-siteName = 网站名称
+stories-filter-sites = 网站
 
-stories-column-actions = Actions
-stories-column-rescrape = Re-scrape
+stories-column-actions = 操作
+stories-column-rescrape = 重新抓取
 
 stories-actionsButton =
-  .aria-label = Select action
+  .aria-label = 选择操作
 stories-actions-popover =
-  .description = A dropdown to select story actions
-stories-actions-rescrape = Re-scrape
-stories-actions-close = Close story
-stories-actions-open = Open story
+  .description = 选择故事操作的下拉菜单
+stories-actions-rescrape = 重新抓取
+stories-actions-close = 结束故事
+stories-actions-open = 开放故事
 
-### Sections
+### 章节
 
-moderate-section-selector-allSections = All Sections
-moderate-section-selector-uncategorized = Uncategorized
-moderate-section-uncategorized = Uncategorized
+moderate-section-selector-allSections = 所有部分
+moderate-section-selector-uncategorized = 未分类
+moderate-section-uncategorized = 未分类
 
-### Email
+### 电子邮件
 
-configure-email = Email settings
-configure-email-configBoxEnabled = Enabled
-configure-email-fromNameLabel = From name
+configure-email = 电子邮件设置
+configure-email-configBoxEnabled = 启用
+configure-email-fromNameLabel = 来自名称
 configure-email-fromNameDescription =
-  Name as it will appear on all outgoing emails
-configure-email-fromEmailLabel = From email address
+  出现在所有外发电子邮件中的名称
+configure-email-fromEmailLabel = 来自电子邮件地址
 configure-email-fromEmailDescription =
-  Email address that will be used to send messages
-configure-email-smtpHostLabel = SMTP host
-configure-email-smtpHostDescription = (ex. smtp.sendgrid.net)
-configure-email-smtpPortLabel = SMTP port
-configure-email-smtpPortDescription = (ex. 25)
+  用于发送消息的电子邮件地址
+configure-email-smtpHostLabel = SMTP主机
+configure-email-smtpHostDescription = (例如. smtp.sendgrid.net)
+configure-email-smtpPortLabel = SMTP 端口
+configure-email-smtpPortDescription = (例如. 25)
 configure-email-smtpTLSLabel = TLS
-configure-email-smtpAuthenticationLabel = SMTP authentication
-configure-email-smtpCredentialsHeader = Email credentials
-configure-email-smtpUsernameLabel = Username
-configure-email-smtpPasswordLabel = Password
-configure-email-send-test = Send test email
+configure-email-smtpAuthenticationLabel = SMTP身份验证
+configure-email-smtpCredentialsHeader = Email凭证
+configure-email-smtpUsernameLabel = 用户名
+configure-email-smtpPasswordLabel = 密码
+configure-email-send-test = 发送测试电子邮件
 
-### Authentication
+### 身份验证
 
-configure-auth-clientID = Client ID
-configure-auth-clientSecret = Client secret
-configure-auth-configBoxEnabled = Enabled
-configure-auth-targetFilterCoralAdmin = { -product-name } Admin
-configure-auth-targetFilterCommentStream = Comment Stream
-configure-auth-redirectURI = Redirect URI
-configure-auth-registration = Registration
+configure-auth-clientID = 客户端 ID
+configure-auth-clientSecret = 客户端 secret
+configure-auth-configBoxEnabled = 启用
+configure-auth-targetFilterCoralAdmin = { -product-name } 管理员
+configure-auth-targetFilterCommentStream = 评论流
+configure-auth-redirectURI = 重定向 URI
+configure-auth-registration = 注册
 configure-auth-registrationDescription =
-  Allow users that have not signed up before with this authentication
-  integration to register for a new account.
-configure-auth-registrationCheckBox = Allow Registration
+  允许使用此身份验证集成之前尚未注册的用户
+  注册新帐户。
+configure-auth-registrationCheckBox = 允许注册
 configure-auth-pleaseEnableAuthForAdmin =
-  Please enable at least one authentication integration for { -product-name } Admin
+  请为{-product-name}管理员启用至少一个身份验证集成
 configure-auth-confirmNoAuthForCommentStream =
-  No authentication integration has been enabled for the Comment Stream.
-  Do you really want to continue?
+  没有为评论流启用身份验证集成。
+  您真的要继续吗？
 
-configure-auth-facebook-loginWith = Login with Facebook
+configure-auth-facebook-loginWith = 用Facebook登录
 configure-auth-facebook-toEnableIntegration =
-  To enable the integration with Facebook Authentication,
-  you need to create and set up a web application.
-  For more information visit: <Link></Link>.
-configure-auth-facebook-useLoginOn = Use Facebook login on
+  要启用与Facebook身份验证的集成，
+  您需要创建并设置一个Web应用程序。
+  有关更多信息，请访问：<Link></Link>。
+configure-auth-facebook-useLoginOn = 使用Facebook登录
 
-configure-auth-google-loginWith = Login with Google
+configure-auth-google-loginWith = 使用Google登录
 configure-auth-google-toEnableIntegration =
-  To enable the integration with Google Authentication you need
-  to create and set up a web application. For more information visit:
-  <Link></Link>.
-configure-auth-google-useLoginOn = Use Google login on
+  要启用与Google身份验证的集成，您需要
+  创建和设置Web应用程序。有关更多信息，请访问：
+  <Link></Link>。
+configure-auth-google-useLoginOn = 使用Google登录
 
-configure-auth-sso-loginWith = Login with Single Sign On
-configure-auth-sso-useLoginOn = Use Single Sign On login on
-configure-auth-sso-key = Key
-configure-auth-sso-regenerate = Regenerate
-configure-auth-sso-regenerateAt = KEY GENERATED AT:
+configure-auth-sso-loginWith = 单点登录
+configure-auth-sso-useLoginOn = 使用单点登录登录
+configure-auth-sso-key = 密钥
+configure-auth-sso-regenerate = 重新生成
+configure-auth-sso-regenerateAt = 密钥生成于：
   { DATETIME($date, year: "numeric", month: "numeric", day: "numeric", hour: "numeric", minute: "numeric") }
 configure-auth-sso-regenerateHonoredWarning =
-  When regenerating a key, tokens signed with the previous key will be honored for 30 days.
+  重新生成密钥时，使用前一个密钥签名的令牌将被保留30天。
 
 configure-auth-sso-description =
-  To enable integration with your existing authentication system,
-  you will need to create a JWT Token to connect. You can learn
-  more about creating a JWT Token with <IntroLink>this introduction</IntroLink>. See our
-  <DocLink>documentation</DocLink> for additional information on single sign on.
+  要与您现有的身份验证系统集成，
+  您将需要创建一个JWT令牌进行连接。你可以学习
+  有关使用< IntroLink >本介绍</ IntroLink >创建JWT令牌的更多信息。
+  有关单点登录的其他信息看我们的<DocLink>文档</DocLink> 。
 
 configure-auth-sso-rotate-keys = Keys
 configure-auth-sso-rotate-keyID = Key ID
 configure-auth-sso-rotate-secret = Secret
 configure-auth-sso-rotate-copySecret =
-  .aria-label = Copy Secret
+  .aria-label = 复制 Secret
 
 configure-auth-sso-rotate-date =
   { DATETIME($date, year: "numeric", month: "numeric", day: "numeric", hour: "numeric", minute: "numeric") }
-configure-auth-sso-rotate-activeSince = Active Since
-configure-auth-sso-rotate-inactiveAt = Inactive At
-configure-auth-sso-rotate-inactiveSince = Inactive Since
+configure-auth-sso-rotate-activeSince = 激活自
+configure-auth-sso-rotate-inactiveAt = 无效于
+configure-auth-sso-rotate-inactiveSince = 无效自
 
-configure-auth-sso-rotate-status = Status
-configure-auth-sso-rotate-statusActive = Active
-configure-auth-sso-rotate-statusExpiring = Expiring
-configure-auth-sso-rotate-statusExpired = Expired
-configure-auth-sso-rotate-statusUnknown = Unknown
+configure-auth-sso-rotate-status = 状态
+configure-auth-sso-rotate-statusActive = 活跃的
+configure-auth-sso-rotate-statusExpiring = 即将到期
+configure-auth-sso-rotate-statusExpired = 已过期
+configure-auth-sso-rotate-statusUnknown = 未知
 
 configure-auth-sso-rotate-expiringTooltip =
-  An SSO key is expiring when it is scheduled for rotation.
+  计划轮换使用的SSO密钥即将到期。
 configure-auth-sso-rotate-expiringTooltip-toggleButton =
-  .aria-label = Toggle expiring tooltip visibility
+  .aria-label = 切换过期提示的可见性
 configure-auth-sso-rotate-expiredTooltip =
-  An SSO key is expired when it has been rotated out of use.
+  当SSO密钥已停用时，它就会过期。
 configure-auth-sso-rotate-expiredTooltip-toggleButton =
-  Toggle expired tooltip visibility
+  切换过期提示的可见性
 
-configure-auth-sso-rotate-rotate = Rotate
-configure-auth-sso-rotate-deactivateNow = Deactivate Now
-configure-auth-sso-rotate-delete = Delete
+configure-auth-sso-rotate-rotate = 轮换
+configure-auth-sso-rotate-deactivateNow = 立即停用
+configure-auth-sso-rotate-delete = 删除
 
-configure-auth-sso-rotate-now = Now
-configure-auth-sso-rotate-10seconds = 10 seconds from now
-configure-auth-sso-rotate-1day = 1 day from now
-configure-auth-sso-rotate-1week = 1 week from now
-configure-auth-sso-rotate-30days = 30 days from now
+configure-auth-sso-rotate-now = 现在
+configure-auth-sso-rotate-10seconds = 从现在开始10秒
+configure-auth-sso-rotate-1day = 从现在开始1天
+configure-auth-sso-rotate-1week = 从现在开始1周
+configure-auth-sso-rotate-30days = 从现在起30天
 configure-auth-sso-rotate-dropdown-description =
-  .description = A dropdown to rotate the SSO key
+  .description = 轮换SSO密钥下拉菜单
 
-configure-auth-local-loginWith = Login with email authentication
-configure-auth-local-useLoginOn = Use email authentication login on
+configure-auth-local-loginWith = 使用电子邮件身份验证登录
+configure-auth-local-useLoginOn = 使用电子邮件身份验证登录
 
-configure-auth-oidc-loginWith = Login with OpenID Connect
-configure-auth-oidc-toLearnMore = To learn more: <Link></Link>
-configure-auth-oidc-providerName = Provider name
+configure-auth-oidc-loginWith = 使用OpenID Connect登录
+configure-auth-oidc-toLearnMore = 要了解更多信息： <Link></Link>
+configure-auth-oidc-providerName = 提供程序名称
 configure-auth-oidc-providerNameDescription =
-  The provider of the OpenID Connect integration. This will be used when the name of the provider
-  needs to be displayed, e.g. “Log in with &lt;Facebook&gt;”.
-configure-auth-oidc-issuer = Issuer
+  OpenID Connect集成的提供者。 此名称需要用来显示提供
+  商名称时使用，例如. “使用 &lt;Facebook&gt;登录 ”。
+configure-auth-oidc-issuer = 发行者
 configure-auth-oidc-issuerDescription =
-  After entering your Issuer information, click the Discover button to have { -product-name } complete
-  the remaining fields. You may also enter the information manually.
+  输入发行人信息后，单击{ -product-name } 按钮以完成
+  其余字段。您也可以手动输入信息。
 configure-auth-oidc-authorizationURL = Authorization URL
 configure-auth-oidc-tokenURL = Token URL
 configure-auth-oidc-jwksURI = JWKS URI
