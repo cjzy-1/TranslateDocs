@@ -674,71 +674,71 @@ configure-auth-oidc-useLoginOn = 使用OpenID Connect登录
 configure-auth-settings = Session 设置
 configure-auth-settings-session-duration-label = Session 持续时间
 
-### Moderation
+### 审核
 
-### Recent Comment History
+### 最近评论历史
 
-configure-moderation-recentCommentHistory-title = Recent history
-configure-moderation-recentCommentHistory-timeFrame = Recent comment history time period
+configure-moderation-recentCommentHistory-title = 最近的历史记录
+configure-moderation-recentCommentHistory-timeFrame = 最近评论历史时间段
 configure-moderation-recentCommentHistory-timeFrame-description =
-  Amount of time to calculate a commenter's rejection rate.
-configure-moderation-recentCommentHistory-enabled = Recent history filter
+  计算评论者拒绝率的时间。
+configure-moderation-recentCommentHistory-enabled = 最近的历史记录过滤器
 configure-moderation-recentCommentHistory-enabled-description =
-  Prevents repeat offenders from publishing comments without approval.
-  When a commenter's rejection rate is above the threshold, their
-  comments are sent to Pending for moderator approval. This does not
-  apply to Staff comments.
-configure-moderation-recentCommentHistory-triggerRejectionRate = Rejection rate threshold
+  防止屡犯者未经批准就发表评论。
+  当评论者的拒绝率高于阈值时，他们的
+  评论将发送到“待审核”，以供审核。这不
+  适用于员工的评论。
+configure-moderation-recentCommentHistory-triggerRejectionRate = 拒绝率阈值
 configure-moderation-recentCommentHistory-triggerRejectionRate-description =
-  Rejected comments ÷ (rejected comments + published comments)
-  over the timeframe above, as a percentage. It does not include
-  comments pending for toxicity, spam or pre-moderation.
+  被拒绝的评论÷（被拒绝的评论+已发布的评论）
+  在上述时间范围内，以百分比表示。它不包括
+  尚待评论，涉及毒性，垃圾邮件或预审。
 
-#### Pre-Moderation
-configure-moderation-preModeration-title = Pre-moderation
+#### 预审核
+configure-moderation-preModeration-title = 预审核
 configure-moderation-preModeration-explanation =
-  When pre-moderation is turned on, comments will not be published unless
-  approved by a moderator.
+  启用预审核后，除非审核人员已审核评论，
+  否则不会发布。
 configure-moderation-preModeration-moderation =
-  Pre-moderate all comments sitewide
+  在网站上对所有评论进行预审核
 configure-moderation-preModeration-premodLinksEnable =
-  Pre-moderate comments containing links sitewide
+  在网站上对包含连接评论进行预审核
 
-configure-moderation-apiKey = API key
+configure-moderation-apiKey = API密钥
 
-configure-moderation-akismet-title = Spam detection filter
+configure-moderation-akismet-title = 垃圾邮件检测过滤器
 configure-moderation-akismet-explanation =
-  The Akismet API filter warns users when a comment is determined likely
-  to be spam. Comments that Akismet thinks are spam will not be published
-  and are placed in the Pending Queue for review by a moderator.
-  If approved by a moderator, the comment will be published.
+  当确定可能发表评论时，Akismet API过滤器会警告用户
+  成为垃圾邮件。Akismet认为是垃圾邮件的评论不会发表
+  并置于待处理队列中，以供主持人审核。
+  如果得到主持人的批准，评论将被发布。
 
 #### Akismet
-configure-moderation-akismet-filter = Spam detection filter
-configure-moderation-akismet-ipBased = IP-based spam detection
+configure-moderation-akismet-filter = 垃圾邮件检测过滤器
+configure-moderation-akismet-ipBased = 基于IP的垃圾邮件检测
 configure-moderation-akismet-accountNote =
-  Note: You must add your active domain(s)
-  in your Akismet account: <externalLink>https://akismet.com/account/</externalLink>
-configure-moderation-akismet-siteURL = Site URL
+  注意：您必须在您的Akismet帐户中：<externalLink>https://akismet.com/account/</externalLink>
+  添加active domain(s)
+configure-moderation-akismet-siteURL = 网站URL
 
 
 #### Perspective
-configure-moderation-perspective-title = Toxic comment filter
+configure-moderation-perspective-title = 有毒评论过滤器
 configure-moderation-perspective-explanation =
-  Using the Perspective API, the Toxic Comment filter warns users
-  when comments exceed the predefined toxicity threshold.
-  Comments with a toxicity score above the threshold
-  <strong>will not be published</strong> and are placed in
-  the <strong>Pending Queue for review by a moderator</strong>.
-  If approved by a moderator, the comment will be published.
-configure-moderation-perspective-filter = Toxic comment filter
-configure-moderation-perspective-toxicityThreshold = Toxicity threshold
+  使用Perspective API，“有毒评论”过滤器会警告用户
+  当评论超过预定义的毒性阈值时。
+  毒性分数高于阈值的评论
+  <strong>将不会发布</strong> 并放置在
+  <strong>带审核队列</strong>.
+  审核人员工的批准后评论将会发布。
+configure-moderation-perspective-filter = 有毒评论过滤器
+configure-moderation-perspective-toxicityThreshold = 毒性阈值
 configure-moderation-perspective-toxicityThresholdDescription =
-  This value can be set a percentage between 0 and 100. This number represents the likelihood that a
-  comment is toxic, according to Perspective API. By default the threshold is set to { $default }.
-configure-moderation-perspective-toxicityModel = Toxicity model
+  可以在0到100之间设置一个百分比值。 该数字根据Perspective API
+  表示有毒评论的可能性。默认情况下，阈值设置为{ $default }。
+configure-moderation-perspective-toxicityModel = 毒性模型
 configure-moderation-perspective-toxicityModelDescription =
-  Choose your Perspective Model. The default is { $default }.
+  选择您的Perspective Model. The default is { $default }.
   You can find out more about model choices <externalLink>here</externalLink>.
 configure-moderation-perspective-allowStoreCommentData = Allow Google to store comment data
 configure-moderation-perspective-allowStoreCommentDataDescription =
