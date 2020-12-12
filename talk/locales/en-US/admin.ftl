@@ -999,189 +999,189 @@ moderate-user-drawer-account-history-premod-set = Always pre-moderate
 moderate-user-drawer-account-history-premod-removed = Removed pre-moderate
 
 moderate-user-drawer-suspension =
-  Suspension, { $value } { $unit ->
+  停用， { $value } { $unit ->
     [second] { $value ->
-      [1] second
-      *[other] seconds
+      [1] 秒
+      *[other] 秒
     }
     [minute] { $value ->
-      [1] minute
-      *[other] minutes
+      [1] 分钟
+      *[other] 分钟
     }
     [hour] { $value ->
-      [1] hour
-      *[other] hours
+      [1] 小时
+      *[other] 小时
     }
     [day] { $value ->
-      [1] day
-      *[other] days
+      [1] 天
+      *[other] 天
     }
     [week] { $value ->
-      [1] week
-      *[other] weeks
+      [1] 周
+      *[other] 周
     }
     [month] { $value ->
-      [1] month
-      *[other] months
+      [1] 月
+      *[other] 月
     }
     [year] { $value ->
-      [1] year
-      *[other] years
+      [1] 年
+      *[other] 年
     }
-    *[other] unknown unit
+    *[other] 未知单位
   }
 
 
-moderate-user-drawer-recent-history-title = Recent comment history
+moderate-user-drawer-recent-history-title = 最近的评论历史
 moderate-user-drawer-recent-history-calculated =
-  Calculated over the last { framework-timeago-time }
-moderate-user-drawer-recent-history-rejected = Rejected
-moderate-user-drawer-recent-history-tooltip-title = How is this calculated?
+  根据最近的{ framework-timeago-time }计算
+moderate-user-drawer-recent-history-rejected = 已拒绝
+moderate-user-drawer-recent-history-tooltip-title = 如何计算？
 moderate-user-drawer-recent-history-tooltip-body =
-  Rejected comments ÷ (rejected comments + published comments).
-  The threshold can be changed by administrators in Configure > Moderation.
+  拒绝的评论 ÷ (拒绝的评论 + 发布的评论)。
+  管理员可以在 配置>审核 中更改阈值。
 moderate-user-drawer-recent-history-tooltip-button =
-  .aria-label = Toggle recent comment history tooltip
-moderate-user-drawer-recent-history-tooltip-submitted = Submitted
+  .aria-label = 切换最近的评论历史记录提示
+moderate-user-drawer-recent-history-tooltip-submitted = 提交
 
 moderate-user-drawer-notes-field =
-  .placeholder = Leave a note...
-moderate-user-drawer-notes-button = Add note
-moderatorNote-left-by = Left by
-moderatorNote-delete = Delete
+  .placeholder = 留下注释...
+moderate-user-drawer-notes-button = 加入注释
+moderatorNote-left-by = 左起
+moderatorNote-delete = 删除
 
-## Community
-community-emptyMessage = We could not find anyone in your community matching your criteria.
+## 社区
+community-emptyMessage = 我们找不到您社区中符合您条件的任何人。
 
 community-filter-searchField =
-  .placeholder = Search by username or email address...
-  .aria-label = Search by username or email address
+  .placeholder = 通过用户名或电子邮件地址搜索...
+  .aria-label = 通过用户名或电子邮件地址搜索
 community-filter-searchButton =
-  .aria-label = Search
+  .aria-label = 搜索
 
 community-filter-roleSelectField =
-  .aria-label = Search by role
+  .aria-label = 按角色搜索
 
 community-filter-statusSelectField =
-  .aria-label = Search by user status
+  .aria-label = 按用户状态搜索
 
 community-changeRoleButton =
-  .aria-label = Change role
+  .aria-label = 更改角色
 
-community-assignMySites = Assign my sites
-community-removeMySites = Remove my sites
-community-stillHaveSiteModeratorPrivileges = They will still have Site Moderator privileges for:
-community-userNoLongerPermitted = User will no longer be permitted to make moderation decisions or assign suspensions on:
-community-assignThisUser = Assign this user to
-community-assignYourSitesTo = Assign your sites to <strong>{ $username }</strong>
-community-siteModeratorsArePermitted = Site moderators are permitted to make moderation decisions and issue suspensions on the sites they are assigned.
-community-removeSiteModeratorPermissions = Remove Site Moderator permissions
+community-assignMySites = 分配我的网站
+community-removeMySites = 删除我的网站
+community-stillHaveSiteModeratorPrivileges = 他们将仍然具有站点的以下审核特权：
+community-userNoLongerPermitted = 不再允许用户做出审核决定或分配停用:
+community-assignThisUser = 将此用户分配给
+community-assignYourSitesTo = 将您的网站分配给<strong>{ $username }</strong>
+community-siteModeratorsArePermitted = 允许站点审核人在他们指定的站点上做出审核、停用决策。
+community-removeSiteModeratorPermissions = 删除站点审核人权限
 
 community-filter-optGroupAudience =
-  .label = Audience
+  .label = 用户
 community-filter-optGroupOrganization =
-  .label = Organization
-community-filter-search = Search
-community-filter-showMe = Show Me
-community-filter-allRoles = All Roles
-community-filter-allStatuses = All Statuses
+  .label = 组织
+community-filter-search = 搜索
+community-filter-showMe = 向我展示
+community-filter-allRoles = 所有角色
+community-filter-allStatuses = 所有状态
 
-community-column-username = Username
-community-column-username-not-available = Username not available
-community-column-email-not-available = Email not available
-community-column-username-deleted = Deleted
-community-column-email = Email
-community-column-memberSince = Member Since
-community-column-role = Role
-community-column-status = Status
+community-column-username = 用户名
+community-column-username-not-available = 用户名不可用
+community-column-email-not-available = 电子邮件不可用
+community-column-username-deleted = 已删除
+community-column-email = 电子邮件
+community-column-memberSince = 成员自
+community-column-role = 角色
+community-column-status = 状态
 
 community-role-popover =
-  .description = A dropdown to change the user role
+  .description = 更改用户角色的下拉菜单
 
 community-siteModeratorActions-popover =
-  .description = A dropdown to promote/demote a user to/from sites
+  .description = 用于将用户从站点升降级的下拉菜单
 
 community-userStatus-popover =
-  .description = A dropdown to change the user status
+  .description = 用于更改用户状态的下拉菜单
 
-community-userStatus-banUser = Ban User
-community-userStatus-ban = Ban
-community-userStatus-removeBan = Remove Ban
-community-userStatus-removeUserBan = Remove ban
-community-userStatus-suspendUser = Suspend User
-community-userStatus-suspend = Suspend
-community-userStatus-removeSuspension = Remove Suspension
-community-userStatus-removeUserSuspension = Remove suspension
-community-userStatus-unknown = Unknown
+community-userStatus-banUser = 封禁用户
+community-userStatus-ban = 封禁
+community-userStatus-removeBan = 删除封禁
+community-userStatus-removeUserBan = 删除封禁
+community-userStatus-suspendUser = 停用用户
+community-userStatus-suspend = 停用
+community-userStatus-removeSuspension = 删除停用
+community-userStatus-removeUserSuspension = 删除停用
+community-userStatus-unknown = 未知
 community-userStatus-changeButton =
-  .aria-label = Change user status
-community-userStatus-premodUser = Always pre-moderate
-community-userStatus-removePremod = Remove pre-moderate
+  .aria-label = 更改用户状态
+community-userStatus-premodUser = 始终预审核
+community-userStatus-removePremod = 删除预审核
 
-community-banModal-areYouSure = Are you sure you want to ban <username></username>?
+community-banModal-areYouSure = 您确定要封禁<username></username>吗?
 community-banModal-consequence =
-  Once banned, this user will no longer be able to comment, use
-  reactions, or report comments.
-community-banModal-cancel = Cancel
-community-banModal-banUser = Ban User
-community-banModal-customize = Customize ban email message
-community-banModal-reject-existing = Reject all comments by this user
+  一旦被封禁，该用户将无法再发表评论，使用
+  反应或举报评论。
+community-banModal-cancel = 取消
+community-banModal-banUser = 封禁用户
+community-banModal-customize = 自定义停用电子邮件消息
+community-banModal-reject-existing = 拒绝该用户的所有评论
 
-community-suspendModal-areYouSure = Suspend <strong>{ $username }</strong>?
+community-suspendModal-areYouSure = 停用<strong>{ $username }</strong>?
 community-suspendModal-consequence =
-  Once suspended, this user will no longer be able to comment, use
-  reactions, or report comments.
-community-suspendModal-duration-3600 = 1 hour
-community-suspendModal-duration-10800 = 3 hours
-community-suspendModal-duration-86400 = 24 hours
-community-suspendModal-duration-604800 = 7 days
-community-suspendModal-cancel = Cancel
-community-suspendModal-suspendUser = Suspend User
+  停用后，该用户将无法再发表评论，使用
+  反应或举报评论。
+community-suspendModal-duration-3600 = 1小时
+community-suspendModal-duration-10800 = 3小时
+community-suspendModal-duration-86400 = 24小时
+community-suspendModal-duration-604800 = 7天
+community-suspendModal-cancel = 取消
+community-suspendModal-suspendUser = 停用用户
 community-suspendModal-emailTemplate =
-  Hello { $username },
+  您好 { $username },
 
-  In accordance with { $organizationName }'s community guidelines, your account has been temporarily suspended. During the suspension, you will be unable to comment, flag or engage with fellow commenters. Please rejoin the conversation in { framework-timeago-time }.
+  根据{{ $organizationName }的社区准则，您的帐户已被暂时停用。在停用期间，您将无法评论，举报或与其他评论者互动。 请在{ framework-timeago-time }重新加入对话。
 
-community-suspendModal-customize = Customize suspension email message
+community-suspendModal-customize = 自定义停用电子邮件消息
 
 community-suspendModal-success =
-  <strong>{ $username }</strong> has been suspended for <strong>{ $duration }</strong>
+  <strong>{ $username }</strong> 已被暂停<strong>{ $duration }</strong>
 
-community-suspendModal-success-close = Close
-community-suspendModal-selectDuration = Select suspension length
+community-suspendModal-success-close = 关闭
+community-suspendModal-selectDuration = 选择停用时长
 
 community-premodModal-areYouSure =
-  Are you sure you want to always pre-moderate <strong>{ $username }</strong>?
+  您确定要始终预审<strong>{ $username }</strong>吗？
 community-premodModal-consequence =
-  All their comments will go to the Pending queue until you remove this status.
-community-premodModal-cancel = Cancel
-community-premodModal-premodUser = Yes, always pre-moderate
+  他们的所有评论将进入待处理队列，直到您删除此状态。
+community-premodModal-cancel = 取消
+community-premodModal-premodUser = 是，始终预先审核
 
 community-siteModeratorModal-assignSites =
-  Assign sites for <strong>{ $username }</strong>
+  为<strong>{ $username }</strong>分配站点
 community-siteModeratorModal-assignSitesDescription =
-  Site moderators are permitted to make moderation decisions and issue suspensions on the sites they are assigned.
-community-siteModeratorModal-cancel = Cancel
-community-siteModeratorModal-assign = Assign
-community-siteModeratorModal-remove = Remove
-community-siteModeratorModal-selectSites = Select sites to moderate
-community-siteModeratorModal-noSites = No sites
+  站点审核人可以分配和停用主持人。
+community-siteModeratorModal-cancel = 取消
+community-siteModeratorModal-assign = 委派
+community-siteModeratorModal-remove = 删除
+community-siteModeratorModal-selectSites = 选择要审核的站点
+community-siteModeratorModal-noSites = 没有站点
 
-community-invite-inviteMember = Invite members to your organization
-community-invite-emailAddressLabel = Email address:
-community-invite-inviteMore = Invite more
-community-invite-inviteAsLabel = Invite as:
-community-invite-sendInvitations = Send invitations
+community-invite-inviteMember = 邀请您的组织成员
+community-invite-emailAddressLabel = 电子邮件地址：
+community-invite-inviteMore = 邀请更多
+community-invite-inviteAsLabel = 聘为：
+community-invite-sendInvitations = 发送邀请
 community-invite-role-staff =
-  <strong>Staff role:</strong> Receives a “Staff” badge, and
-  comments are automatically approved. Cannot moderate
-  or change any { -product-name } configuration.
+  <strong>职员角色:</strong> 收到“员工”徽章，
+  评论将自动获得批准。 不能审核或
+  更改任何系统配置。
 community-invite-role-moderator =
-  <strong>Moderator role:</strong> Receives a
-  “Staff” badge, and comments are automatically
-  approved. Has full moderation privileges (approve,
-  reject and feature comments). Can configure individual
-  articles but no site-wide configuration privileges.
+  <strong>审核人员角色:</strong> 收到“员工”徽章，
+  评论将自动获得批准。 具有全部审核权限
+   (批准， 拒绝和推荐评论)，
+   可以配置个人文章并具有
+   站点范围的配置权限。
 community-invite-role-admin =
   <strong>管理员角色:</strong> 收到“员工”徽章，
   评论将自动获得批准。 具有全部审核权限
