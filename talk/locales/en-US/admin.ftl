@@ -738,167 +738,167 @@ configure-moderation-perspective-toxicityThresholdDescription =
   表示有毒评论的可能性。默认情况下，阈值设置为{ $default }。
 configure-moderation-perspective-toxicityModel = 毒性模型
 configure-moderation-perspective-toxicityModelDescription =
-  选择您的Perspective Model. The default is { $default }.
-  You can find out more about model choices <externalLink>here</externalLink>.
-configure-moderation-perspective-allowStoreCommentData = Allow Google to store comment data
+  选择您的Perspective模型。默认值为{ $default }。
+  您可以在<externalLink>此处</externalLink>中找到有关模型选择的更多信息。
+configure-moderation-perspective-allowStoreCommentData = 此处
 configure-moderation-perspective-allowStoreCommentDataDescription =
-  Stored comments will be used for future research and community model building purposes to
-  improve the API over time.
+  存储的评论将用于将来的研究和建立社区模型，以
+  随着时间的推移改善API。
 configure-moderation-perspective-allowSendFeedback =
-  Allow Coral to send moderation actions to Google
+  允许评论系统向Google发送审核操作
 configure-moderation-perspective-allowSendFeedbackDescription =
-  Sent moderation actions will be used for future research and
-  community model building purposes to improve the API over time.
-configure-moderation-perspective-customEndpoint = Custom endpoint
+  发送的审核操作将用于将来的研究和
+  建立社区模型以随着时间的推移改进API。
+configure-moderation-perspective-customEndpoint = 自定义endpoint
 configure-moderation-perspective-defaultEndpoint =
-  By default the endpoint is set to { $default }. You may override this here.
+  默认情况下，设置为{ $default }。您可以在此处覆盖它。
 configure-moderation-perspective-accountNote =
-  For additional information on how to set up the Perspective Toxic Comment Filter please visit:
+  有关如何设置Perspective有毒评论过滤器的其他信息，请访问：
   <externalLink>https://github.com/conversationai/perspectiveapi#readme</externalLink>
 
-configure-moderation-newCommenters-title = New commenter approval
-configure-moderation-newCommenters-enable = Enable new commenter approval
+configure-moderation-newCommenters-title = 新评论者批准
+configure-moderation-newCommenters-enable = 启用新评论者批准
 configure-moderation-newCommenters-description =
-  When this is active, initial comments by a new commenter will be sent to Pending
-  for moderator approval before publication.
-configure-moderation-newCommenters-enable-description = Enable pre-moderation for new commenters
-configure-moderation-newCommenters-approvedCommentsThreshold = Number of comments that must be approved
+  启用此功能后，新评论者的初始评论将发送给“待处理”
+  在发布之前由审核人员审核。
+configure-moderation-newCommenters-enable-description = 为新评论者启用预审核
+configure-moderation-newCommenters-approvedCommentsThreshold = 必须批准的评论数
 configure-moderation-newCommenters-approvedCommentsThreshold-description =
-  The number of comments a user must have approved before they do
-  not have to be premoderated
-configure-moderation-newCommenters-comments = comments
+  T用户必须先批准的评论数
+  不必预先审核
+configure-moderation-newCommenters-comments = 评论
 
 
-#### Banned Words Configuration
-configure-wordList-banned-bannedWordsAndPhrases = Banned words and phrases
+#### 禁用字词配置
+configure-wordList-banned-bannedWordsAndPhrases = 禁用的单词和短语
 configure-wordList-banned-explanation =
-  Comments containing a word or phrase in the banned words list are <strong>automatically rejected and are not published</strong>.
-configure-wordList-banned-wordList = Banned word list
+  评论中包含被禁用的词语列表中单词或短语的会被<strong>自动拒绝并且不会发布</strong>.
+configure-wordList-banned-wordList = 禁用的词列表
 configure-wordList-banned-wordListDetailInstructions =
-  Separate banned words or phrases with a new line. Words/phrases are not case sensitive.
+  用新的一行分隔禁用的单词或短语。单词/短语不区分大小写。
 
-#### Suspect Words Configuration
-configure-wordList-suspect-bannedWordsAndPhrases = Suspect words and phrases
+#### 可疑词配置
+configure-wordList-suspect-bannedWordsAndPhrases = 可疑单词和短语
 configure-wordList-suspect-explanation =
-  Comments containing a word or phrase in the Suspect Words List
-  are <strong>placed into the Reported Queue for moderator review and are
-  published (if comments are not pre-moderated).</strong>
-configure-wordList-suspect-wordList = Suspect word list
+  评论中包含可疑词或短语的会被
+  are <strong>放入报告队列给审核人员审查
+  发布（如果评论未预先审核）。</strong>
+configure-wordList-suspect-wordList = 可疑单词列表
 configure-wordList-suspect-wordListDetailInstructions =
-  Separate suspect words or phrases with a new line. Words/phrases are not case sensitive.
+  用新行分隔可疑词语。不区分大小写。
 
-### Advanced
-configure-advanced-customCSS = Custom CSS
+### 高级
+configure-advanced-customCSS = 自定义CSS
 configure-advanced-customCSS-override =
-  URL of a CSS stylesheet that will override default Embed Stream styles.
+  CSS样式表的URL，它将覆盖默认的Embed Stream样式。
 
-configure-advanced-permittedDomains = Permitted domains
+configure-advanced-permittedDomains = 允许的域
 configure-advanced-permittedDomains-description =
-  Domains where your { -product-name } instance is allowed to be embedded
-  including the scheme (ex. http://localhost:3000, https://staging.domain.com,
-  https://domain.com).
+  允许嵌入您的评论系统实例的域
+  包括方案 (例如. http://localhost:3000, https://staging.domain.com,
+  https://domain.com)。
 
-configure-advanced-liveUpdates = Comment stream live updates
+configure-advanced-liveUpdates = 评论流实时更新
 configure-advanced-liveUpdates-explanation =
-  When enabled, there will be real-time loading and updating of comments.
-  When disabled, users will have to refresh the page to see new comments.
+  启用后，将实时加载和更新评论。
+  禁用后，用户将必须刷新页面以查看新评论。
 
-configure-advanced-embedCode-title = Embed code
+configure-advanced-embedCode-title = 嵌入代码
 configure-advanced-embedCode-explanation =
-  Copy and paste the code below into your CMS to embed Coral comment streams in
-  each of your site’s stories.
+  将以下代码复制并粘贴到CMS中，以将评论流嵌入到其中
+  您网站的每个故事。
 
 configure-advanced-embedCode-comment =
-  Uncomment these lines and replace with the ID of the
-  story's ID and URL from your CMS to provide the
-  tightest integration. Refer to our documentation at
-  https://docs.coralproject.net for all the configuration
-  options.
+  取消注释这些行，并用ID替换
+  CMS的故事ID和URL，以提供
+  最紧密的集成。请参阅我们的文档，网址为
+  https://docs.coralproject.net 用于所有配置
+  选项。
 
-## Decision History
+## 决策历史
 decisionHistory-popover =
-  .description = A dialog showing the decision history
+  .description = 显示决策历史的对话框
 decisionHistory-youWillSeeAList =
-  You will see a list of your post moderation actions here.
+  您将在此处看到您的帖子审核操作列表。
 decisionHistory-showMoreButton =
-  Show More
-decisionHistory-yourDecisionHistory = Your Decision History
-decisionHistory-rejectedCommentBy = Rejected comment by <Username></Username>
-decisionHistory-approvedCommentBy = Approved comment by <Username></Username>
-decisionHistory-goToComment = Go to comment
+  展示更多
+decisionHistory-yourDecisionHistory = 您的决策历史
+decisionHistory-rejectedCommentBy = 被<Username></Username>拒绝的评论
+decisionHistory-approvedCommentBy = <Username></Username>批准的评论
+decisionHistory-goToComment = 发表评论
 
 ### Slack
 
-configure-slack-header-title = Slack Integrations
+configure-slack-header-title = Slack集成
 configure-slack-description =
-  Automatically send comments from Coral moderation queues to Slack
-  channels. You will need Slack admin access to set this up. For
-  steps on how to create a Slack App see our <externalLink>documentation</externalLink>.
+  自动将评论从审核队列发送到Slack
+  channels。您将需要Slack管理员访问权限才能进行设置。 For
+  有关如何创建Slack应用程序的步骤，请参见我们的 <externalLink>documentation</externalLink>。
 configure-slack-notRecommended =
-  Not recommended for sites with more than 10K comments per month.
-configure-slack-addChannel = Add Channel
+  不建议用于每月评论数超过1万的网站。
+configure-slack-addChannel = 添加Channel
 
-configure-slack-channel-defaultName = New channel
-configure-slack-channel-enabled = Enabled
-configure-slack-channel-remove = Remove Channel
-configure-slack-channel-name-label = Name
+configure-slack-channel-defaultName = 新频道
+configure-slack-channel-enabled = 启用
+configure-slack-channel-remove = 删除频道
+configure-slack-channel-name-label = 名称
 configure-slack-channel-name-description =
-  This is only for your information, to easily identify
-  each Slack connection. Slack does not tell us the name
-  of the channel/s you're connecting to Coral.
+  仅供参考，轻松识别
+  每个Slack connection。Slack不告诉我们
+  您连接channel/s名。
 configure-slack-channel-hookURL-label = Webhook URL
 configure-slack-channel-hookURL-description =
-  Slack provides a channel-specific URL to activate webhook
-  connections. To find the URL for one of your Slack channels,
-  follow the instructions <externalLink>here</externalLink>.
+  Slack提供了特定于频道的URL来激活webhook
+  连接。要查找您的一个Slack channels的网址，
+  按照<externalLink>此处</externalLink>的说明进行操作。
 configure-slack-channel-triggers-label =
-  Receive notifications in this Slack channel for
-configure-slack-channel-triggers-reportedComments = Reported Comments
-configure-slack-channel-triggers-pendingComments = Pending Comments
-configure-slack-channel-triggers-featuredComments = Featured Comments
-configure-slack-channel-triggers-allComments = All Comments
-configure-slack-channel-triggers-staffComments = Staff Comments
+  在此Slack频道中接收有关的通知
+configure-slack-channel-triggers-reportedComments = 举报的评论
+configure-slack-channel-triggers-pendingComments = 待处理评论
+configure-slack-channel-triggers-featuredComments = 推荐评论
+configure-slack-channel-triggers-allComments = 所有评论
+configure-slack-channel-triggers-staffComments = 员工评论
 
-## moderate
-moderate-navigation-reported = reported
-moderate-navigation-pending = Pending
-moderate-navigation-unmoderated = unmoderated
-moderate-navigation-rejected = rejected
+## 审核
+moderate-navigation-reported = 举报的
+moderate-navigation-pending = 待处理
+moderate-navigation-unmoderated = 未审核
+moderate-navigation-rejected = 批准
 moderate-navigation-approved = approved
 moderate-navigation-comment-count = { SHORT_NUMBER($count) }
 
-moderate-marker-preMod = Pre-mod
-moderate-marker-link = Link
-moderate-marker-bannedWord = Banned word
-moderate-marker-bio = Bio
-moderate-marker-possibleBannedWord = Possible Banned Word
-moderate-marker-suspectWord = Suspect word
-moderate-marker-possibleSuspectWord = Possible Suspect Word
-moderate-marker-spam = Spam
-moderate-marker-spamDetected = Spam detected
-moderate-marker-toxic = Toxic
-moderate-marker-recentHistory = Recent history
-moderate-marker-bodyCount = Body count
-moderate-marker-offensive = Offensive
-moderate-marker-abusive = Abusive
-moderate-marker-newCommenter = New commenter
-moderate-marker-repeatPost = Repeat comment
-moderate-marker-other = Other
+moderate-marker-preMod = 预审
+moderate-marker-link = 链接
+moderate-marker-bannedWord = 禁用词
+moderate-marker-bio = 个人简历
+moderate-marker-possibleBannedWord = 可能禁用的词语
+moderate-marker-suspectWord = 可疑词
+moderate-marker-possibleSuspectWord = 可能可疑的词语
+moderate-marker-spam = 垃圾邮件
+moderate-marker-spamDetected = 检测到垃圾邮件
+moderate-marker-toxic = 有毒
+moderate-marker-recentHistory = 最近的历史记录
+moderate-marker-bodyCount = 人数
+moderate-marker-offensive = 攻击性
+moderate-marker-abusive = 侮辱
+moderate-marker-newCommenter = 新评论者
+moderate-marker-repeatPost = 重复评论
+moderate-marker-other = 其他
 
-moderate-markers-details = Details
-moderate-flagDetails-offensive = Offensive
-moderate-flagDetails-abusive = Abusive
-moderate-flagDetails-spam = Spam
-moderate-flagDetails-other = Other
+moderate-markers-details = 详细信息
+moderate-flagDetails-offensive = 攻击性
+moderate-flagDetails-abusive = 侮辱
+moderate-flagDetails-spam = 垃圾邮件
+moderate-flagDetails-other = 其他
 
-moderate-flagDetails-toxicityScore = Toxicity Score
-moderate-toxicityLabel-likely = Likely <score></score>
-moderate-toxicityLabel-unlikely = Unlikely <score></score>
-moderate-toxicityLabel-maybe = Maybe <score></score>
+moderate-flagDetails-toxicityScore = 毒性分数
+moderate-toxicityLabel-likely = 可能 <score></score>
+moderate-toxicityLabel-unlikely = 不太可能 <score></score>
+moderate-toxicityLabel-maybe = 也许 <score></score>
 
-moderate-linkDetails-label = Copy link to this comment
-moderate-in-stream-link-copy = In Stream
-moderate-in-moderation-link-copy = In Moderation
+moderate-linkDetails-label = 复制链接到该评论
+moderate-in-stream-link-copy = 流中
+moderate-in-moderation-link-copy = 在审核中
 
 moderate-emptyQueue-pending = Nicely done! There are no more pending comments to moderate.
 moderate-emptyQueue-reported = Nicely done! There are no more reported comments to moderate.
