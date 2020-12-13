@@ -713,6 +713,11 @@ configure-moderation-akismet-explanation =
   并置于待处理队列中，以供主持人审核。
   如果得到主持人的批准，评论将被发布。
 
+configure-moderation-premModeration-premodSuspectWordsEnable =
+  预审核评论包含可疑词
+configure-moderation-premModeration-premodSuspectWordsDescription =
+  您可以查看和编辑“可疑单词”列表<wordListLink>此处</wordListLink>
+
 #### Akismet
 configure-moderation-akismet-filter = 垃圾邮件检测过滤器
 configure-moderation-akismet-ipBased = 基于IP的垃圾邮件检测
@@ -783,6 +788,10 @@ configure-wordList-suspect-explanation =
   评论中包含可疑词或短语的会被
   are <strong>放入报告队列给审核人员审查
   发布（如果评论未预先审核）。</strong>
+configure-wordList-suspect-explanationSuspectWordsList =
+  评论中包含可疑词列表中的词语的会被
+  <strong>置于待审核队列中以供审核人员审阅，
+  审核人员批准后予以发布。</strong>
 configure-wordList-suspect-wordList = 可疑单词列表
 configure-wordList-suspect-wordListDetailInstructions =
   用新行分隔可疑词语。不区分大小写。
