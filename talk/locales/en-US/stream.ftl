@@ -1,152 +1,152 @@
-### Localization for Embed Stream
+### 嵌入流的本地化
 
-## General
+## 通用
 
-general-moderate = Moderate
+general-moderate = 审核
 
-general-userBoxUnauthenticated-joinTheConversation = Join the conversation
-general-userBoxUnauthenticated-signIn = Sign in
-general-userBoxUnauthenticated-register = Register
+general-userBoxUnauthenticated-joinTheConversation = 加入对话
+general-userBoxUnauthenticated-signIn = 登录
+general-userBoxUnauthenticated-register = 注册
 
 general-userBoxAuthenticated-signedIn =
-  Signed in as
+  登入为
 general-userBoxAuthenticated-notYou =
-  Not you? <button>Sign Out</button>
+ 不是你？<button>退出</button>
 
 general-userBox-youHaveBeenSuccessfullySignedOut =
-  You have been successfully signed out
+  您已成功退出
 
-general-tabBar-commentsTab = Comments
-general-tabBar-myProfileTab = My Profile
-general-tabBar-discussionsTab = Discussions
-general-tabBar-configure = Configure
+general-tabBar-commentsTab = 评论
+general-tabBar-myProfileTab = 的个人资料
+general-tabBar-discussionsTab = 讨论
+general-tabBar-configure = 配置
 
 general-tabBar-aria-comments =
-  .aria-label = Comments
-  .title = Comments
+  .aria-label = 评论
+  .title = 评论
 general-tabBar-aria-qa =
-  .aria-label = Q&A
-  .title = Q&A
+  .aria-label = 问答
+  .title = 问答
 general-tabBar-aria-myProfile =
-  .aria-label = My Profile
-  .title = My Profile
+  .aria-label = 我的个人资料
+  .title = 我的个人资料
 general-tabBar-aria-configure =
-  .aria-label = Configure
-  .title = My Profile
+  .aria-label = 配置
+  .title = 我的个人资料
 general-tabBar-aria-discussions =
-  .aria-label = Discussions
-  .title = Discussions
+  .aria-label = 讨论
+  .title = 讨论
 
-## Comment Count
+## 评论数
 
 comment-count-text =
   { $count  ->
-    [one] Comment
-    *[other] Comments
+    [one] 评论
+    *[other] 评论
   }
 
-## Comments Tab
+## 评论标签
 
-comments-allCommentsTab = All Comments
-comments-featuredTab = Featured
+comments-allCommentsTab = 所有评论
+comments-featuredTab = 推荐
 comments-counter-shortNum = { SHORT_NUMBER($count) }
 comments-watchers =
   { $count  ->
-    [one] 1 person viewing this discussion
-    *[other] { SHORT_NUMBER($count) } people viewing this discussion
+    [one] 1人正在查看此讨论
+    *[other] { SHORT_NUMBER($count) }人正在查看此讨论
   }
 
-comments-featuredCommentTooltip-how = How is a comment featured?
+comments-featuredCommentTooltip-how = 评论的特色如何？
 comments-featuredCommentTooltip-handSelectedComments =
-  Comments are chosen by our team as worth reading.
+  我们的团队选择了值得阅读的评论。
 comments-featuredCommentTooltip-toggleButton =
-  .aria-label = Toggle featured comments tooltip
-  .title = Toggle featured comments tooltip
+  .aria-label = 切换推荐评论提示
+  .title = 切换推荐评论提示
 
 comments-collapse-toggle =
-  .aria-label = Collapse comment thread
-comments-bannedInfo-bannedFromCommenting = Your account has been banned from commenting.
+  .aria-label = 折叠评论线
+comments-bannedInfo-bannedFromCommenting = 您的帐户已被禁止发表评论。
 comments-bannedInfo-violatedCommunityGuidelines =
-  Someone with access to your account has violated our community
-  guidelines. As a result, your account has been banned. You will no
-  longer be able to comment, respect or report comments. If you think
-  this has been done in error, please contact our community team.
+  有权访问您帐户的人侵犯了我们的社区
+  准则。因此，您的帐户已被禁止。你不会
+  能够发表评论，尊重或举报评论。如果你认为
+  这样做有误，请与我们的社区团队联系。
 
-comments-noCommentsAtAll = There are no comments on this story.
-comments-noCommentsYet = There are no comments yet. Why don't you write one?
+comments-noCommentsAtAll = 此故事暂无评论。
+comments-noCommentsYet = 暂无评论。你为什么不写一个？
 
-comments-streamQuery-storyNotFound = Story not found
+comments-streamQuery-storyNotFound = 找不到故事
 
-comments-commentForm-cancel = Cancel
-comments-commentForm-saveChanges = Save changes
-comments-commentForm-submit = Submit
+comments-commentForm-cancel = 取消
+comments-commentForm-saveChanges = 保存更改
+comments-commentForm-submit = 提交
 
-comments-postCommentForm-submit = Submit
-comments-replyList-showAll = Show All
-comments-replyList-showMoreReplies = Show More Replies
+comments-postCommentForm-submit = 提交
+comments-replyList-showAll = 全部显示
+comments-replyList-showMoreReplies = 显示更多回复
 
-comments-postCommentForm-gifSeach = Search for a GIF
+comments-postCommentForm-gifSeach = 搜索GIF
 comments-postComment-gifSearch-search =
-  .aria-label = Search
-comments-postComment-gifSearch-loading = Loading...
-comments-postComment-gifSearch-no-results = No results found for {$query}
+  .aria-label = 搜索
+comments-postComment-gifSearch-loading = 正在加载...
+comments-postComment-gifSearch-no-results = 找不到{$query}的结果
 comments-postComment-gifSearch-powered-by-giphy =
   .alt = Powered by giphy
 
-comments-postComment-pasteImage = Paste image URL
-comments-postComment-insertImage = Insert
+comments-postComment-pasteImage = 粘贴图片URL
+comments-postComment-insertImage = 插入
 
-comments-postComment-confirmMedia-youtube = Add this YouTube video to the end of your comment?
-comments-postComment-confirmMedia-twitter = Add this Tweet to the end of your comment?
-comments-postComment-confirmMedia-cancel = Cancel
-comments-postComment-confirmMedia-add-tweet = Add Tweet
-comments-postComment-confirmMedia-add-video = Add video
-comments-postComment-confirmMedia-remove = Remove
-comments-commentForm-gifPreview-remove = Remove
+comments-postComment-confirmMedia-youtube = 将此YouTube视频添加到评论的末尾吗？
+comments-postComment-confirmMedia-twitter = 将此Tweet添加到您的评论的末尾吗？
+comments-postComment-confirmMedia-cancel = 取消
+comments-postComment-confirmMedia-add-tweet = 添加推文
+comments-postComment-confirmMedia-add-video = 添加视频
+comments-postComment-confirmMedia-remove = 删除
+comments-commentForm-gifPreview-remove = 删除
 comments-viewNew =
   { $count ->
-    [1] View {$count} New Comment
-    *[other] View {$count} New Comments
+    [1] 查看{$count}条新评论
+    *[other]查看{$count}条新评论
   }
-comments-loadMore = Load More
+comments-loadMore = 加载更多
 
 comments-permalinkPopover =
-  .description = A dialog showing a permalink to the comment
+  .description = 永久链接评论对话框
 comments-permalinkPopover-permalinkToComment =
-  .aria-label = Permalink to comment
-comments-permalinkButton-share = Share
+  .aria-label = 永久链接评论
+comments-permalinkButton-share = 分享
 comments-permalinkButton =
-  .aria-label = Share comment by {$username}
-comments-permalinkView-viewFullDiscussion = View full discussion
-comments-permalinkView-commentRemovedOrDoesNotExist = This comment has been removed or does not exist.
+  .aria-label = {$username}分享评论
+comments-permalinkView-viewFullDiscussion = 查看完整讨论
+comments-permalinkView-commentRemovedOrDoesNotExist = 此评论已被删除或不存在。
 
 comments-rte-bold =
-  .title = Bold
+  .title = 粗体
 
 comments-rte-italic =
-  .title = Italic
+  .title = 斜体
 
 comments-rte-blockquote =
-  .title = Blockquote
+  .title = 块引用
 
 comments-rte-bulletedList =
-  .title = Bulleted List
+  .title = 符号列表
 
 comments-rte-strikethrough =
-  .title = Strikethrough
+  .title = 删除线
 
-comments-rte-spoiler = Spoiler
+comments-rte-spoiler = 内容简介
 
 comments-rte-sarcasm = Sarcasm
 
 comments-rte-externalImage =
-  .title = External Image
+  .title = 外部图片
 
-comments-remainingCharacters = { $remaining } characters remaining
+comments-remainingCharacters = 剩余{ $remaining }个字符
 
-comments-postCommentFormFake-signInAndJoin = Sign in and Join the Conversation
+comments-postCommentFormFake-signInAndJoin = 登录并加入对话
 
-comments-postCommentForm-rteLabel = Post a comment
+comments-postCommentForm-rteLabel = 发表评论
 
 comments-postCommentForm-rte =
   .placeholder = { comments-postCommentForm-rteLabel }
@@ -154,647 +154,647 @@ comments-postCommentForm-rte =
 comments-postCommentFormFake-rte =
   .placeholder = { comments-postCommentForm-rteLabel }
 
-comments-replyButton-reply = Reply
+comments-replyButton-reply = 回复
 comments-replyButton =
-  .aria-label = Reply to comment by {$username}
+  .aria-label = {$username}回复评论
 
 comments-permalinkViewQuery-storyNotFound = { comments-streamQuery-storyNotFound }
 
-comments-replyCommentForm-submit = Submit
-comments-replyCommentForm-cancel = Cancel
-comments-replyCommentForm-rteLabel = Write a reply
+comments-replyCommentForm-submit = 提交
+comments-replyCommentForm-cancel = 取消
+comments-replyCommentForm-rteLabel = 撰写回复
 comments-replyCommentForm-rte =
   .placeholder = { comments-replyCommentForm-rteLabel }
 
-comments-commentContainer-editButton = Edit
+comments-commentContainer-editButton = 编辑
 
 comments-commentContainer-avatar =
-  .alt = Avatar for { $username }
+  .alt = { $username }的头像
 
-comments-editCommentForm-saveChanges = Save Changes
-comments-editCommentForm-cancel = Cancel
-comments-editCommentForm-close = Close
-comments-editCommentForm-rteLabel = Edit comment
+comments-editCommentForm-saveChanges = 保存更改
+comments-editCommentForm-cancel = 取消
+comments-editCommentForm-close = 关闭
+comments-editCommentForm-rteLabel = 编辑评论
 comments-editCommentForm-rte =
   .placeholder = { comments-editCommentForm-rteLabel }
-comments-editCommentForm-editRemainingTime = Edit: <time></time> remaining
-comments-editCommentForm-editTimeExpired = Edit time has expired. You can no longer edit this comment. Why not post another one?
-comments-editedMarker-edited = Edited
-comments-showConversationLink-readMore = Read More of this Conversation >
+comments-editCommentForm-editRemainingTime = 编辑：剩余时间<time></time>
+comments-editCommentForm-editTimeExpired = E编辑时间已到期。您无法再编辑此评论。为什么不发布另一个？
+comments-editedMarker-edited = 已编辑
+comments-showConversationLink-readMore = 阅读更多此对话 >
 comments-conversationThread-showMoreOfThisConversation =
-  Show More of This Conversation
+  显示更多此对话
 
 comments-permalinkView-currentViewing =
 comments-permalinkView-singleConversation =
 comments-permalinkView-youAreCurrentlyViewing =
-  You are currently viewing a single conversation
-comments-inReplyTo = In reply to <Username></Username>
-comments-replyingTo = Replying to <Username></Username>
+  您当前正在查看一个对话
+comments-inReplyTo = 您当前正在查看一个对话 <Username></Username>
+comments-replyingTo = 回复<Username></Username>
 
-comments-reportButton-report = Report
-comments-reportButton-reported = Reported
+comments-reportButton-report = 举报
+comments-reportButton-reported = 已举报
 comments-reportButton-aria-report =
-  .aria-label = Report comment by {$username}
+  .aria-label = {$username}报告评论
 comments-reportButton-aria-reported =
-  .aria-label = Reported
+  .aria-label = 已举报
 
-comments-sortMenu-sortBy = Sort by
-comments-sortMenu-newest = Newest
-comments-sortMenu-oldest = Oldest
-comments-sortMenu-mostReplies = Most replies
+comments-sortMenu-sortBy = 排序依据
+comments-sortMenu-newest = 最新
+comments-sortMenu-oldest = 最早的
+comments-sortMenu-mostReplies = 回复最多
 
 comments-userPopover =
-  .description = A popover with more user information
-comments-userPopover-memberSince = Member since: { DATETIME($timestamp, year: "numeric", month: "long", day: "numeric") }
-comments-userPopover-ignore = Ignore
+  .description = 具有更多用户信息的弹出窗口
+comments-userPopover-memberSince = 成员自：{ DATETIME($timestamp, year: "numeric", month: "long", day: "numeric") }
+comments-userPopover-ignore = 忽略
 
-comments-userIgnorePopover-ignoreUser = Ignore {$username}?
+comments-userIgnorePopover-ignoreUser = 忽略{$username}?
 comments-userIgnorePopover-description =
-  When you ignore a commenter, all comments they
-  wrote on the site will be hidden from you. You can
-  undo this later from My Profile.
-comments-userIgnorePopover-ignore = Ignore
-comments-userIgnorePopover-cancel = Cancel
+  当您忽略评论者时，他们的所有评论
+  将对您隐藏。您可以
+  稍后从“我的个人资料”中撤消此操作。
+comments-userIgnorePopover-ignore = 忽略
+comments-userIgnorePopover-cancel = 忽略
 
-comments-userBanPopover-title = Ban {$username}?
+comments-userBanPopover-title = 封禁 {$username}?
 comments-userBanPopover-description =
-  Once banned, this user will no longer be able
-  to comment, use reactions, or report comments.
-  This comment will also be rejected.
-comments-userBanPopover-cancel = Cancel
-comments-userBanPopover-ban = Ban
+  一旦被禁止，该用户将不再能够
+  评论，使用反应或举报评论。
+  此评论也将被封禁。
+comments-userBanPopover-cancel = 取消
+comments-userBanPopover-ban = 禁止
 
 comments-moderationDropdown-popover =
-  .description = A popover menu to moderate the comment
-comments-moderationDropdown-feature = Feature
-comments-moderationDropdown-unfeature = Un-feature
-comments-moderationDropdown-approve = Approve
-comments-moderationDropdown-approved = Approved
-comments-moderationDropdown-reject = Reject
-comments-moderationDropdown-rejected = Rejected
-comments-moderationDropdown-ban = Ban User
-comments-moderationDropdown-banned = Banned
+  .description = 审核评论弹出菜单
+comments-moderationDropdown-feature = 推荐
+comments-moderationDropdown-unfeature = 取消推荐
+comments-moderationDropdown-approve = 批准
+comments-moderationDropdown-approved = 已批准
+comments-moderationDropdown-reject = 拒绝
+comments-moderationDropdown-rejected = 已拒绝
+comments-moderationDropdown-ban = 封禁用户
+comments-moderationDropdown-banned = 已封禁
 comments-moderationDropdown-goToModerate =
-comments-moderationDropdown-moderationView = Moderation view
-comments-moderationDropdown-moderateStory = Moderate story
+comments-moderationDropdown-moderationView = 审核视图
+comments-moderationDropdown-moderateStory = 审核故事
 comments-moderationDropdown-caretButton =
-  .aria-label = Moderate
+  .aria-label = 审核
 
-comments-rejectedTombstone-title = You have rejected this comment.
+comments-rejectedTombstone-title = 您已拒绝此评论。
 comments-rejectedTombstone-moderateLink =
-  Go to moderate to review this decision
+  去审核这项决定
 
-comments-featuredTag = Featured
+comments-featuredTag = 推荐
 
 comments-react =
   .aria-label = {$count ->
-    [0] {$reaction} comment by {$username}
-    *[other] {$reaction} ({$count}) comment by {$username}
+    {$username}的[0] {$reaction}条评论 
+    *{$username}的[other] {$reaction} ({$count})条评论 
   }
 comments-reacted =
   .aria-label = {$count ->
-    [0] {$reaction} comment by {$username}
-    [one] {$reaction} comment by {$username}
-    *[other] {$reaction} ({$count}) comment by {$username}
+    {$username}的[0] {$reaction} 条评论 
+    {$username}[one] {$reaction} 条评论 
+    *{$username}[other] {$reaction} ({$count})条评论
   }
 
-### Q&A
+### 问答
 
-general-tabBar-qaTab = Q&A
+general-tabBar-qaTab = 问答
 
-qa-answeredTab = Answered
-qa-unansweredTab = Unanswered
-qa-allCommentsTab = All
+qa-answeredTab = 已回答
+qa-unansweredTab = 未回答
+qa-allCommentsTab = 全部
 
 qa-noQuestionsAtAll =
-  There are no questions on this story.
+  这个故事毫无疑问。
 qa-noQuestionsYet =
-  There are no questions yet. Why don't you ask one?
+  目前为止还没有什么问题。你为什么不问一个？
 qa-viewNew =
   { $count ->
-    [1] View {$count} New Question
-    *[other] View {$count} New Questions
+    [1] 查看{$count}个新问题
+    *[other]查看{$count}个新问题
   }
 
-qa-postQuestionForm-rteLabel = Post a question
+qa-postQuestionForm-rteLabel = 发表问题
 qa-postQuestionForm-rte =
   .placeholder = { qa-postQuestionForm-rteLabel }
 qa-postQuestionFormFake-rte =
   .placeholder = { qa-postQuestionForm-rteLabel }
 
-qa-sortMenu-mostVoted = Most voted
+qa-sortMenu-mostVoted = 投票最多
 
-qa-answered-tag = answered
-qa-expert-tag = expert
+qa-answered-tag = 已回答
+qa-expert-tag = 专家
 
-qa-reaction-vote = Vote
-qa-reaction-voted = Voted
+qa-reaction-vote = 投票
+qa-reaction-voted = 已投票
 
 qa-reaction-aria-vote =
   .aria-label = {$count ->
-    [0] Vote for comment by {$username}
-    *[other] Vote ({$count}) for comment by {$username}
+    {$username}的评论[0]条投票
+    *{$username}的评论[other]({$count})条投票
   }
 qa-reaction-aria-voted =
   .aria-label = {$count ->
-    [0] Voted for comment by {$username}
-    [one] Voted for comment by {$username}
-    *[other] Voted ({$count}) for comment by {$username}
+    {$username}的评论[0]条投票 
+    {$username}的评论[one]条投票
+    *{$username}的评论[other]({$count})条投票
   }
 
-qa-unansweredTab-doneAnswering = Done
+qa-unansweredTab-doneAnswering = 完成
 
 qa-expert-email = ({ $email })
 
-qa-answeredTooltip-how = How is a question answered?
+qa-answeredTooltip-how = 如何回答问题？
 qa-answeredTooltip-answeredComments =
-  Questions are answered by a Q&A expert.
+  问题由问答专家解答。
 qa-answeredTooltip-toggleButton =
-  .aria-label = Toggle answered questions tooltip
-  .title = Toggle answered questions tooltip
+  .aria-label = 切换回答的问题提示
+  .title = 换回答的问题提示
 
-### Account Deletion Stream
+### 帐户删除流
 
 comments-stream-deleteAccount-callOut-title =
-  Account deletion requested
+  请求删除帐户
 comments-stream-deleteAccount-callOut-receivedDesc =
-  A request to delete your account was received on { $date }.
+  在{ $date }收到了删除帐户的请求。
 comments-stream-deleteAccount-callOut-cancelDesc =
-  If you would like to continue leaving comments, replies or reactions,
-  you may cancel your request to delete your account before { $date }.
+  如果您想继续发表评论，回复或反应，
+  您可以在{ $date }之前取消删除帐户的请求。
 comments-stream-deleteAccount-callOut-cancel =
-  Cancel account deletion request
+  取消帐户删除请求
 comments-stream-deleteAccount-callOut-cancelAccountDeletion =
-  Cancel account deletion
+  取消帐户删除
 
-### Embed Links
+### 嵌入链接
 
-comments-embedLinks-showEmbeds = Show embeds
-comments-embedLinks-hideEmbeds = Hide embeds
+comments-embedLinks-showEmbeds = 显示嵌入
+comments-embedLinks-hideEmbeds = 隐藏嵌入
 
-comments-embedLinks-show-giphy = Show GIF
-comments-embedLinks-hide-giphy = Hide GIF
+comments-embedLinks-show-giphy = 显示GIF
+comments-embedLinks-hide-giphy = 隐藏GIF
 
-comments-embedLinks-show-youtube = Show video
-comments-embedLinks-hide-youtube = Hide video
+comments-embedLinks-show-youtube = 显示视频
+comments-embedLinks-hide-youtube = 隐藏视频
 
-comments-embedLinks-show-twitter = Show Tweet
-comments-embedLinks-hide-twitter = Hide Tweet
+comments-embedLinks-show-twitter = 显示推文
+comments-embedLinks-hide-twitter = 隐藏推文
 
-comments-embedLinks-show-external = Show image
-comments-embedLinks-hide-external = Hide image
+comments-embedLinks-show-external = 显示图片
+comments-embedLinks-hide-external = 隐藏图像
 
 
-### Featured Comments
-comments-featured-gotoConversation = Go to conversation
-comments-featured-replies = Replies
+### 推荐评论
+comments-featured-gotoConversation = 进入对话
+comments-featured-replies = 回复
 
-## Profile Tab
+## 个人资料标签
 
-profile-myCommentsTab = My Comments
-profile-myCommentsTab-comments = My comments
-profile-accountTab = Account
-profile-preferencesTab = Preferences
+profile-myCommentsTab = 我的评论
+profile-myCommentsTab-comments = 我的评论
+profile-accountTab = 帐户
+profile-preferencesTab = 首选项
 
-### Bio
-profile-bio-title = Bio
+### 个人简历
+profile-bio-title = 个人简历
 profile-bio-description =
-  Write a bio to display publicly on your commenting profile. Must be
-  less than 100 characters.
-profile-bio-remove = Remove
-profile-bio-update = Update
-profile-bio-success = Your bio has been successfully updated.
-profile-bio-removed = Your bio has been removed.
+  编写个人简介以在您的评论个人资料上公开显示。一定是
+  少于100个字符。
+profile-bio-remove = 删除
+profile-bio-update = 更新
+profile-bio-success = 您的简历已成功更新。
+profile-bio-removed = 您的个人资料已被删除。
 
 
-### Account Deletion
+### 帐户删除
 
 profile-accountDeletion-deletionDesc =
-  Your account is scheduled to be deleted on { $date }.
+  您的帐户计划在{ $date }删除。
 profile-accountDeletion-cancelDeletion =
-  Cancel account deletion request
+  取消帐户删除请求
 profile-accountDeletion-cancelAccountDeletion =
-  Cancel account deletion
+  取消帐户删除
 
-### Comment History
-profile-historyComment-viewConversation = View Conversation
-profile-historyComment-replies = Replies {$replyCount}
-profile-historyComment-commentHistory = Comment History
-profile-historyComment-story = Story: {$title}
-profile-historyComment-comment-on = Comment on:
-profile-profileQuery-errorLoadingProfile = Error loading profile
-profile-profileQuery-storyNotFound = Story not found
-profile-commentHistory-loadMore = Load More
-profile-commentHistory-empty = You have not written any comments
-profile-commentHistory-empty-subheading = A history of your comments will appear here
+### 评论历史
+profile-historyComment-viewConversation = 查看对话
+profile-historyComment-replies = 回复 {$replyCount}
+profile-historyComment-commentHistory = 评论历史
+profile-historyComment-story = 故事：{$title}
+profile-historyComment-comment-on = 评论：
+profile-profileQuery-errorLoadingProfile = 加载配置文件时出错
+profile-profileQuery-storyNotFound = 找不到故事
+profile-commentHistory-loadMore = 加载更多
+profile-commentHistory-empty = 您尚未写任何评论
+profile-commentHistory-empty-subheading = 您的评论历史将显示在此处
 
-### Preferences
+### 首选项
 
-profile-preferences-mediaPreferences = Media Preferences
-profile-preferences-mediaPreferences-alwaysShow = Always show GIFs, Tweets, YouTube, etc.
-profile-preferences-mediaPreferences-thisMayMake = This may make the comments slower to load
-profile-preferences-mediaPreferences-update = Update
+profile-preferences-mediaPreferences = 媒体首选项
+profile-preferences-mediaPreferences-alwaysShow = 始终显示GIF，Tweets，YouTube等。
+profile-preferences-mediaPreferences-thisMayMake = 这可能会使评论的加载速度变慢
+profile-preferences-mediaPreferences-update = 更新
 profile-preferences-mediaPreferences-preferencesUpdated =
-  Your media preferences have been updated
+  您的媒体偏好设置已更新
 
 ### Account
-profile-account-ignoredCommenters = Ignored Commenters
+profile-account-ignoredCommenters = 忽略的评论者
 profile-account-ignoredCommenters-description =
-  You can Ignore other commenters by clicking on their username
-  and selecting Ignore. When you ignore someone, all of their
-  comments are hidden from you. Commenters you Ignore will still
-  be able to see your comments.
-profile-account-ignoredCommenters-empty = You are not currently ignoring anyone
-profile-account-ignoredCommenters-stopIgnoring = Stop ignoring
+  您可以通过单击其他评论者的用户名来忽略它们
+  并选择忽略。当您忽略某人时，他们的所有人
+  评论对您隐藏。您忽略的评论者仍会
+  能够看到您的评论。
+profile-account-ignoredCommenters-empty = 您当前未忽略任何人
+profile-account-ignoredCommenters-stopIgnoring = 停止忽略
 profile-account-ignoredCommenters-youAreNoLonger =
-  You are no longer ignoring
-profile-account-ignoredCommenters-manage = Manage
-profile-account-ignoredCommenters-cancel = Cancel
-profile-account-ignoredCommenters-close = Close
+  您不再忽略
+profile-account-ignoredCommenters-manage = 管理
+profile-account-ignoredCommenters-cancel = 取消
+profile-account-ignoredCommenters-close = 关闭
 
-profile-account-changePassword-cancel = Cancel
-profile-account-changePassword = Change Password
-profile-account-changePassword-oldPassword = Old Password
-profile-account-changePassword-forgotPassword = Forgot your password?
-profile-account-changePassword-newPassword = New Password
-profile-account-changePassword-button = Change Password
+profile-account-changePassword-cancel = 取消
+profile-account-changePassword = 更改密码
+profile-account-changePassword-oldPassword = 旧密码
+profile-account-changePassword-forgotPassword = 忘记密码了？
+profile-account-changePassword-newPassword = 新密码
+profile-account-changePassword-button = 更改密码
 profile-account-changePassword-updated =
-  Your password has been updated
-profile-account-changePassword-password = Password
+  您的密码已更新
+profile-account-changePassword-password = 密码
 
-profile-account-download-comments-title = Download my comment history
+profile-account-download-comments-title = 下载我的评论历史
 profile-account-download-comments-description =
-  You will receive an email with a link to download your comment history.
-  You can make <strong>one download request every 14 days.</strong>
+  您将收到一封包含链接的电子邮件，以下载您的评论历史记录。
+  您可以<strong>每14天发出一个下载请求。</strong>
 profile-account-download-comments-request =
-  Request comment history
+  请求评论历史记录
 profile-account-download-comments-request-icon =
-  .title = Request comment history
+  .title = 请求评论历史
 profile-account-download-comments-recentRequest =
-  Your most recent request: { $timeStamp }
+  您最近的请求：{ $timeStamp }
 profile-account-download-comments-yourMostRecentRequest =
-  Your most recent request was within the last 14 days. You may
-  request to download your comments again on: { $timeStamp }
+  您最近的请求是在过去14天内。你可以
+  请求在以下时间再次下载您的评论： { $timeStamp }
 profile-account-download-comments-requested =
-  Request submitted. You can submit another request in { framework-timeago-time }.
+  请求已提交。您可以在{ framework-timeago-time }中提交另一个请求。
 profile-account-download-comments-requestSubmitted =
-  Your request has been successfully submitted. You may request to
-  download your comment history again in { framework-timeago-time }.
+  您的请求已成功提交。您可以要求
+  在{ framework-timeago-time }重新下载您的评论历史记录。
 profile-account-download-comments-error =
-  We were unable to complete your download request.
-profile-account-download-comments-request-button = Request
+  我们无法完成您的下载请求。
+profile-account-download-comments-request-button = 请求
 
-## Delete Account
+## 删除帐户
 
-profile-account-deleteAccount-title = Delete My Account
-profile-account-deleteAccount-deleteMyAccount = Delete my account
+profile-account-deleteAccount-title = 删除我的帐户
+profile-account-deleteAccount-deleteMyAccount = 删除我的帐户
 profile-account-deleteAccount-description =
-  Deleting your account will permanently erase your profile and remove
-  all your comments from this site.
-profile-account-deleteAccount-requestDelete = Request account deletion
+  删除帐户将永久删除您的个人资料并删除
+  您对此站点的所有评论。
+profile-account-deleteAccount-requestDelete = 请求删除帐户
 
 profile-account-deleteAccount-cancelDelete-description =
-  You have already submitted a request to delete your account.
-  Your account will be deleted on { $date }.
-  You may cancel the request until that time.
-profile-account-deleteAccount-cancelDelete = Cancel account deletion request
+  您已经提交了删除帐户的请求。
+  您的帐户将在{ $date }被删除。
+  您可以在该时间之前取消请求。
+profile-account-deleteAccount-cancelDelete = 取消帐户删除请求
 
-profile-account-deleteAccount-request = Request
-profile-account-deleteAccount-cancel = Cancel
-profile-account-deleteAccount-pages-deleteButton = Delete my account
-profile-account-deleteAccount-pages-cancel = Cancel
-profile-account-deleteAccount-pages-proceed = Proceed
-profile-account-deleteAccount-pages-done = Done
+profile-account-deleteAccount-request =请求
+profile-account-deleteAccount-cancel = 取消
+profile-account-deleteAccount-pages-deleteButton = 删除我的帐户
+profile-account-deleteAccount-pages-cancel = 取消
+profile-account-deleteAccount-pages-proceed = 继续
+profile-account-deleteAccount-pages-done = 完成
 profile-account-deleteAccount-pages-phrase =
-  .aria-label = Phrase
+  .aria-label = 短语
 
-profile-account-deleteAccount-pages-sharedHeader = Delete my account
+profile-account-deleteAccount-pages-sharedHeader = 删除我的帐户
 
-profile-account-deleteAccount-pages-descriptionHeader = Delete my account?
+profile-account-deleteAccount-pages-descriptionHeader = 删除我的帐户？
 profile-account-deleteAccount-pages-descriptionText =
-  You are attempting to delete your account. This means:
+  您正在尝试删除您的帐户。这表示：
 profile-account-deleteAccount-pages-allCommentsRemoved =
-  All of your comments are removed from this site
+  您的所有评论已从该网站删除
 profile-account-deleteAccount-pages-allCommentsDeleted =
-  All of your comments are deleted from our database
+  您的所有评论都将从我们的数据库中删除
 profile-account-deleteAccount-pages-emailRemoved =
-  Your email address is removed from our system
+ 您的电子邮件地址已从我们的系统中删除
 
-profile-account-deleteAccount-pages-whenHeader = Delete my account: When?
-profile-account-deleteAccount-pages-whenSubHeader = When?
+profile-account-deleteAccount-pages-whenHeader = 删除我的帐户：何时？
+profile-account-deleteAccount-pages-whenSubHeader = W什么时候？
 profile-account-deleteAccount-pages-whenSec1Header =
-  When will my account be deleted?
+  什么时候可以删除我的帐户？
 profile-account-deleteAccount-pages-whenSec1Content =
-  Your account will be deleted 24 hours after your request has been submitted.
+  提交请求后24小时，您的帐户将被删除。
 profile-account-deleteAccount-pages-whenSec2Header =
-  Can I still write comments until my account is deleted?
+  在删除帐户之前，我还能写评论吗？
 profile-account-deleteAccount-pages-whenSec2Content =
-  No. Once you've requested account deletion, you can no longer write comments,
-  reply to comments, or select reactions.
+  否。请求删除帐户后，您将无法再写评论，
+  回复评论或选择反应。
 
-profile-account-deleteAccount-pages-downloadCommentHeader = Download my comments?
-profile-account-deleteAccount-pages-downloadSubHeader = Download my comments
+profile-account-deleteAccount-pages-downloadCommentHeader = 下载我的评论吗？
+profile-account-deleteAccount-pages-downloadSubHeader = 下载我的评论
 profile-account-deleteAccount-pages-downloadCommentsDesc =
-  Before your account is deleted, we recommend you download your comment
-  history for your records. After your account is deleted, you will be
-  unable to request your comment history.
+  建议您删除帐户之前，先下载评论
+  您的记录历史。删除帐户后，您将
+  无法请求您的评论历史记录。
 profile-account-deleteAccount-pages-downloadCommentsPath =
-  My Profile > Download My Comment History
+  我的资料>下载我的评论历史
 
-profile-account-deleteAccount-pages-confirmHeader = Confirm account deletion?
-profile-account-deleteAccount-pages-confirmSubHeader = Are you sure?
+profile-account-deleteAccount-pages-confirmHeader = 确认删除帐户？
+profile-account-deleteAccount-pages-confirmSubHeader = 您确定吗？
 profile-account-deleteAccount-pages-confirmDescHeader =
-  Are you sure you want to delete your account?
+  您确定要删除您的帐户吗？
 profile-account-deleteAccount-confirmDescContent =
-  To confirm you would like to delete your account please type in the following
-  phrase into the text box below:
+  为了确认您要删除您的帐户，请下面的文本框
+  输入以下短语：
 profile-account-deleteAccount-pages-confirmPhraseLabel =
-  To confirm, type phrase below:
+  要确认，请在下面输入短语：
 profile-account-deleteAccount-pages-confirmPasswordLabel =
-  Enter your password:
+  输入密码：
 
-profile-account-deleteAccount-pages-completeHeader = Account deletion requested
-profile-account-deleteAccount-pages-completeSubHeader = Request submitted
+profile-account-deleteAccount-pages-completeHeader = 请求删除帐户
+profile-account-deleteAccount-pages-completeSubHeader = 请求已提交
 profile-account-deleteAccount-pages-completeDescript =
-  Your request has been submitted and a confirmation has been sent to the email
-  address associated with your account.
+  您的请求已提交，并且确认邮件已发送至
+  与您的帐户关联的电子邮件地址。
 profile-account-deleteAccount-pages-completeTimeHeader =
-  Your account will be deleted on: { $date }
-profile-account-deleteAccount-pages-completeChangeYourMindHeader = Changed your mind?
+  您的帐户将在{ $date }被删除
+profile-account-deleteAccount-pages-completeChangeYourMindHeader = 改变主意了吗？
 profile-account-deleteAccount-pages-completeSignIntoYourAccount =
-  Simply sign in to your account again before this time and select
-  <strong>Cancel Account Deletion Request</strong>.
-profile-account-deleteAccount-pages-completeTellUsWhy = Tell us why.
+  只需在此之前再次登录到您的帐户，然后选择
+  <strong>取消帐户删除请求</strong>.
+profile-account-deleteAccount-pages-completeTellUsWhy = 告诉我们原因。
 profile-account-deleteAccount-pages-completeWhyDeleteAccount =
-  We'd like to know why you chose to delete your account. Send us feedback on
-  our comment system by emailing { $email }.
-profile-account-changePassword-edit = Edit
-profile-account-changePassword-change = Change
+  我们想知道您为什么选择删除您的帐户。通过电子邮件{ $email }向我们反馈
+  我们的评论系统。
+profile-account-changePassword-edit = 编辑
+profile-account-changePassword-change = 变更
 
 
-## Notifications
-profile-notificationsTab = Notifications
-profile-account-notifications-emailNotifications = E-Mail Notifications
-profile-account-notifications-emailNotifications = Email Notifications
-profile-account-notifications-receiveWhen = Receive notifications when:
-profile-account-notifications-onReply = My comment receives a reply
-profile-account-notifications-onFeatured = My comment is featured
-profile-account-notifications-onStaffReplies = A staff member replies to my comment
-profile-account-notifications-onModeration = My pending comment has been reviewed
-profile-account-notifications-sendNotifications = Send Notifications:
-profile-account-notifications-sendNotifications-immediately = Immediately
-profile-account-notifications-sendNotifications-daily = Daily
-profile-account-notifications-sendNotifications-hourly = Hourly
-profile-account-notifications-updated = Your notification settings have been updated
-profile-account-notifications-button = Update Notification Settings
-profile-account-notifications-button-update = Update
+## 通知
+profile-notificationsTab = 通知
+profile-account-notifications-emailNotifications = 电子邮件通知
+profile-account-notifications-emailNotifications = 电子邮件通知
+profile-account-notifications-receiveWhen = 在以下情况下接收通知：
+profile-account-notifications-onReply = 我的评论收到回复
+profile-account-notifications-onFeatured = 我的评论被推荐
+profile-account-notifications-onStaffReplies = 一名工作人员回复了我的评论
+profile-account-notifications-onModeration = 我的待审核评论已经过审核
+profile-account-notifications-sendNotifications = 发送通知：
+profile-account-notifications-sendNotifications-immediately = 立即
+profile-account-notifications-sendNotifications-daily = 每天
+profile-account-notifications-sendNotifications-hourly = 每小时
+profile-account-notifications-updated = 您的通知设置已更新
+profile-account-notifications-button = 更新通知设置
+profile-account-notifications-button-update = 更新
 
-## Report Comment Popover
+## 举报评论Popover
 comments-reportPopover =
-  .description = A dialog for reporting comments
-comments-reportPopover-reportThisComment = Report This Comment
-comments-reportPopover-whyAreYouReporting = Why are you reporting this comment?
+  .description = 举报评论对话框
+comments-reportPopover-reportThisComment = 举报此评论
+comments-reportPopover-whyAreYouReporting = 为什么要举报此评论？
 
-comments-reportPopover-reasonOffensive = This comment is offensive
-comments-reportPopover-reasonAbusive = This is abusive behaviour
-comments-reportPopover-reasonIDisagree = I disagree with this comment
-comments-reportPopover-reasonSpam = This looks like an ad or marketing
-comments-reportPopover-reasonOther = Other
+comments-reportPopover-reasonOffensive = 此评论是攻击性的
+comments-reportPopover-reasonAbusive = 这是侮辱行为
+comments-reportPopover-reasonIDisagree = 我不同意此评论
+comments-reportPopover-reasonSpam = 这看起来像是广告或推销
+comments-reportPopover-reasonOther = 其他
 
 comments-reportPopover-additionalInformation =
-  Additional information <optional>Optional</optional>
+  附加信息 <optional>可选</optional>
 comments-reportPopover-pleaseLeaveAdditionalInformation =
-  Please leave any additional information that may be helpful to our moderators.
+  请留下任何可能对我们的审核人员有用的其他信息。
 
-comments-reportPopover-maxCharacters = Max. { $maxCharacters } Characters
-comments-reportPopover-restrictToMaxCharacters = Please restrict your report to { $maxCharacters } characters
-comments-reportPopover-cancel = Cancel
-comments-reportPopover-submit = Submit
+comments-reportPopover-maxCharacters = 最多{ $maxCharacters }个字符
+comments-reportPopover-restrictToMaxCharacters = 请将您的举报限制在{ $maxCharacters }个字符
+comments-reportPopover-cancel = 取消
+comments-reportPopover-submit = 提交
 
-comments-reportPopover-thankYou = Thank you!
+comments-reportPopover-thankYou = 谢谢！
 comments-reportPopover-receivedMessage =
-  We’ve received your message. Reports from members like you keep the community safe.
+  我们已收到您的消息。像您这样的成员的举报可以确保社区安全。
 
-comments-reportPopover-dismiss = Dismiss
+comments-reportPopover-dismiss = 不受理
 
 ## Submit Status
-comments-submitStatus-dismiss = Dismiss
+comments-submitStatus-dismiss = 不受理
 comments-submitStatus-submittedAndWillBeReviewed =
-  Your comment has been submitted and will be reviewed by a moderator
+  您的评论已提交，主持人将对其进行审核
 comments-submitStatus-submittedAndRejected =
-  This comment has been rejected for violating our guidelines
+  此评论因违反我们的准则而被拒绝
 
-# Configure
-configure-configureQuery-errorLoadingProfile = Error loading configure
-configure-configureQuery-storyNotFound = Story not found
+# 配置
+configure-configureQuery-errorLoadingProfile = 加载配置错误
+configure-configureQuery-storyNotFound = 找不到故事
 
-## Change username
-profile-changeUsername-username = Username
-profile-changeUsername-success = Your username has been successfully updated
-profile-changeUsername-edit = Edit
-profile-changeUsername-change = Change
-profile-changeUsername-heading = Edit your username
-profile-changeUsername-heading-changeYourUsername = Change your username
-profile-changeUsername-desc = Change the username that will appear on all of your past and future comments. <strong>Usernames can be changed once every { framework-timeago-time }.</strong>
-profile-changeUsername-desc-text = Change the username that will appear on all of your past and future comments. Usernames can be changed once every { framework-timeago-time }.
-profile-changeUsername-current = Current username
-profile-changeUsername-newUsername-label = New username
-profile-changeUsername-confirmNewUsername-label = Confirm new username
-profile-changeUsername-cancel = Cancel
-profile-changeUsername-save = Save
-profile-changeUsername-saveChanges = Save Changes
-profile-changeUsername-recentChange = Your username has been changed in the last . You may change your username again on { $nextUpdate }.
+## 更改用户名
+profile-changeUsername-username = 用户名
+profile-changeUsername-success = 您的用户名已成功更新
+profile-changeUsername-edit = 编辑
+profile-changeUsername-change = 变更
+profile-changeUsername-heading = 编辑您的用户名
+profile-changeUsername-heading-changeYourUsername = 更改用户名
+profile-changeUsername-desc = 更改将在您过去和将来的所有评论中显示的用户名。<strong>用户名每{ framework-timeago-time }可以更改一次。</strong>
+profile-changeUsername-desc-text = 更改将在您过去和将来的所有评论中显示的用户名。可以每{ framework-timeago-time }更改一次用户名。
+profile-changeUsername-current = 当前用户名
+profile-changeUsername-newUsername-label = 新用户名
+profile-changeUsername-confirmNewUsername-label = 确认新用户名
+profile-changeUsername-cancel = 取消
+profile-changeUsername-save = 保存
+profile-changeUsername-saveChanges = 保存更改
+profile-changeUsername-recentChange = 您的用户名已在过去更改。您可以在{ $nextUpdate }再次更改。
 profile-changeUsername-youChangedYourUsernameWithin =
-  You changed your username within the last { framework-timeago-time }. You may change your username again on: { $nextUpdate }.
-profile-changeUsername-close = Close
+  您在过去{ framework-timeago-time }更改了用户名。您可以在{ $nextUpdate }再次更改用户名。
+profile-changeUsername-close = 关闭
 
-## Discussions tab
+## 讨论标签
 
-discussions-mostActiveDiscussions = Most active discussions
-discussions-mostActiveDiscussions-subhead = Ranked by the most comments received over the last 24 hours on { $siteName }
-discussions-mostActiveDiscussions-empty = You haven’t participated in any discussions
-discussions-myOngoingDiscussions = My ongoing discussions
-discussions-myOngoingDiscussions-subhead = Where you’ve commented across { $orgName }
-discussions-viewFullHistory = View full comment history
-discussions-discussionsQuery-errorLoadingProfile = Error loading profile
-discussions-discussionsQuery-storyNotFound = Story not found
+discussions-mostActiveDiscussions = 最活跃的讨论
+discussions-mostActiveDiscussions-subhead = 在{ $siteName }过去24小时内收到的最多评论进行排名
+discussions-mostActiveDiscussions-empty = 您尚未参加任何讨论
+discussions-myOngoingDiscussions = 我正在进行的讨论My
+discussions-myOngoingDiscussions-subhead = 您在{ $orgName }上的评论过的地方
+discussions-viewFullHistory = 查看完整的评论历史
+discussions-discussionsQuery-errorLoadingProfile = 加载配置文件时出错
+discussions-discussionsQuery-storyNotFound = 找不到故事
 
-## Comment Stream
+## 评论流
 configure-stream-title =
 configure-stream-title-configureThisStream =
-  Configure this stream
+  配置此流
 configure-stream-apply =
-configure-stream-update = Update
+configure-stream-update = 更新
 configure-stream-streamHasBeenUpdated =
-  This stream has been updated
+  此信息流已更新
 
 configure-premod-title =
-configure-premod-premoderateAllComments = Pre-moderate all comments
+configure-premod-premoderateAllComments = 预审核所有评论
 configure-premod-description =
-  Moderators must approve any comment before it is published to this story.
+ 审核人员必须批准所有评论后才能发布到该故事。
 
 configure-premodLink-title =
 configure-premodLink-commentsContainingLinks =
-  Pre-moderate comments containing links
+  包含链接的预审核评论
 configure-premodLink-description =
-  Moderators must approve any comment that contains a link before it is published to this story.
+  审核人员必须批准所有包含连接的评论后才能发布到该故事。
 
 configure-liveUpdates-title =
-configure-enableLiveUpdates-title = Enable live updates
+configure-enableLiveUpdates-title = 启用实时更新
 configure-liveUpdates-description =
 configure-enableLiveUpdates-description =
-  When enabled, the comments will be updated instantly as new comments and
-  replies are submitted, instead of requiring a page refresh. You can
-  disable this in the unusual situation of an article getting so much
-  traffic that the comments are loading slowly.
-configure-enableLiveUpdates-enable = Enable
+  启用后，评论及回复将立即更新，
+  而不需要刷新页面。您可以在
+  文章过多加载缓慢的异常情况下
+  禁用此功能。
+configure-enableLiveUpdates-enable = 启用
 
-configure-disableLiveUpdates-title = Disable live updates
+configure-disableLiveUpdates-title = 禁用实时更新
 configure-disableLiveUpdates-description =
-  When disabled, new comments and replies will no longer instantly update
-  as they are submitted. Commenters will need to refresh the page to see
-  new comments. We recommend this in the unusual situation of a story
-  getting so much traffic that the comments are loading slowly.
-configure-disableLiveUpdates-disable = Disable
+  禁用后，新评论和回复将不再立即更新
+  评论者将需要刷新页面才能看到
+  我们建议在文章过多加载缓慢的异常情况下
+  使用此功能。
+configure-disableLiveUpdates-disable = 禁用
 
-configure-liveUpdates-disabledSuccess = Live updates are now disabled
-configure-liveUpdates-enabledSuccess = Live updates are now enabled
+configure-liveUpdates-disabledSuccess = 现在禁用实时更新
+configure-liveUpdates-enabledSuccess = 现在启用了实时更新
 
 configure-messageBox-title =
 configure-addMessage-title =
-  Add a message or question
+  添加消息或问题
 configure-messageBox-description =
 configure-addMessage-description =
-  Add a message to the top of the comment box for your readers. Use this
-  to pose a topic, ask a question or make announcements relating to this
-  story.
-configure-addMessage-addMessage = Add message
-configure-addMessage-removed = Message has been removed
+  在读者的评论框顶部添加一条消息。用这个
+  提出主题，提出问题或发表与此相关的公告
+  故事。
+configure-addMessage-addMessage = 添加消息
+configure-addMessage-removed = 消息已被删除
 config-addMessage-messageHasBeenAdded =
-  The message has been added to the comment box
-configure-addMessage-remove = Remove
-configure-addMessage-submitUpdate = Update
-configure-addMessage-cancel = Cancel
-configure-addMessage-submitAdd = Add message
+  该消息已添加到评论框中
+configure-addMessage-remove = 删除
+configure-addMessage-submitUpdate = 更新
+configure-addMessage-cancel = 取消
+configure-addMessage-submitAdd = 添加消
 
-configure-messageBox-preview = Preview
-configure-messageBox-selectAnIcon = Select an icon
-configure-messageBox-iconConversation = Conversation
-configure-messageBox-iconDate = Date
-configure-messageBox-iconHelp = Help
-configure-messageBox-iconWarning = Warning
-configure-messageBox-iconChatBubble = Chat bubble
-configure-messageBox-noIcon = No icon
-configure-messageBox-writeAMessage = Write a message
+configure-messageBox-preview = 预览
+configure-messageBox-selectAnIcon = 选择一个图标
+configure-messageBox-iconConversation = 对话
+configure-messageBox-iconDate = 日期
+configure-messageBox-iconHelp = 帮助
+configure-messageBox-iconWarning = 警告
+configure-messageBox-iconChatBubble = 聊天气泡
+configure-messageBox-noIcon = 没有图标
+configure-messageBox-writeAMessage = 写一条消息
 
 configure-closeStream-title =
 configure-closeStream-closeCommentStream =
-  Close comment stream
+  关闭评论流
 configure-closeStream-description =
-  This comment stream is currently open. By closing this comment stream,
-  no new comments may be submitted and all previously submitted comments
-  will still be displayed.
-configure-closeStream-closeStream = Close Stream
-configure-closeStream-theStreamIsNowOpen = The stream is now open
+  该评论流目前处于打开状态。通过关闭此评论流，
+  不得提交新评论，所有先前提交的评论
+  仍会显示。
+configure-closeStream-closeStream = 关闭流
+configure-closeStream-theStreamIsNowOpen = 流现在已打开
 
-configure-openStream-title = Open Stream
+configure-openStream-title = 打开流
 configure-openStream-description =
-  This comment stream is currently closed. By opening this comment
-  stream new comments may be submitted and displayed.
-configure-openStream-openStream = Open Stream
-configure-openStream-theStreamIsNowClosed = The stream is now closed
+  此评论流当前关闭。通过打开此评论
+  可以提交并显示新评论。
+configure-openStream-openStream = 打开流
+configure-openStream-theStreamIsNowClosed = 现在关闭流
 
 configure-moderateThisStream =
 
 qa-experimental-tag-tooltip-content =
-  The Q&A format is currently in active development. Please contact
-  us with any feedback or requests.
+  问答模式目前正在积极开发中。有任何反馈或要求
+  请联系我们。
 
 configure-enableQA-title =
 configure-enableQA-switchToQA =
-  Switch to Q&A format
+  切换为问答模式
 configure-enableQA-description =
-  The Q&A format allows community members to submit questions for chosen
-  experts to answer.
-configure-enableQA-enableQA = Switch to Q&A
+  问答模式允许社区成员
+  选专家解答问题。
+configure-enableQA-enableQA = 切换到问答
 configure-enableQA-streamIsNowComments =
-  This stream is now in comments format
+  此信息流现在为评论模式
 
-configure-disableQA-title = Configure this Q&A
+configure-disableQA-title = 配置此问答
 configure-disableQA-description =
-  The Q&A format allows community members to submit questions for chosen
-  experts to answer.
-configure-disableQA-disableQA = Switch to Comments
+  问答模式允许社区成员
+  选专家解答问题。
+configure-disableQA-disableQA = 切换到评论
 configure-disableQA-streamIsNowQA =
-  This stream is now in Q&A format
+  此流现在为问答模式
 
-configure-experts-title = Add an Expert
+configure-experts-title = 添加专家
 configure-experts-filter-searchField =
-  .placeholder = Search by email or username
-  .aria-label = Search by email or username
+  .placeholder = 通过电子邮件或用户名搜索
+  .aria-label = 通过电子邮件或用户名搜索
 configure-experts-filter-searchButton =
-  .aria-label = Search
+  .aria-label = 搜索
 configure-experts-filter-description =
-  Adds an Expert Badge to comments by registered users, only on this
-  page. New users must first sign up and open the comments on a page
-  to create their account.
-configure-experts-search-none-found = No users were found with that email or username
+  仅在此页上为注册用户的评论添加专家徽章。
+  新用户必须首先注册并创建帐户。
+  
+configure-experts-search-none-found = 未找到使用该电子邮件或用户名的用户
 configure-experts-
-configure-experts-remove-button = Remove
-configure-experts-load-more = Load More
-configure-experts-none-yet = There are currently no experts for this Q&A.
-configure-experts-search-title = Search for an expert
-configure-experts-assigned-title = Experts
-configure-experts-noLongerAnExpert = is no longer an expert
-comments-tombstone-ignore = This comment is hidden because you ignored {$username}
-comments-tombstone-showComment = Show comment
+configure-experts-remove-button = 删除
+configure-experts-load-more = 加载更多
+configure-experts-none-yet = 目前尚无有关此问答的专家。
+configure-experts-search-title = 搜索专家
+configure-experts-assigned-title = 专家
+configure-experts-noLongerAnExpert = 不再是专家
+comments-tombstone-ignore = 由于您忽略了{$username}，该评论是隐藏的
+comments-tombstone-showComment = 显示评论
 comments-tombstone-deleted =
-  This comment is no longer available. The commenter has deleted their account.
+  此评论不再可用。评论者已删除其帐户。
 
 suspendInfo-heading =
 suspendInfo-heading-yourAccountHasBeen =
-  Your account has been temporarily suspended from commenting
+  您的帐户已被暂时禁止评论
 suspendInfo-info =
 suspendInfo-description-inAccordanceWith =
-  In accordance with { $organization }'s community guidelines your
-  account has been temporarily suspended. While suspended you will not
-  be able to comment, respect or report comments.
+  根据{ $organization }的社区准则，
+  帐户已被暂时停用。在停用状态下，您不
+  能够发表评论，尊重或举报评论。
 suspendInfo-until-pleaseRejoinThe =
-  Please rejoin the conversation on { $until }
+  请重新加入{ $until }对话
 
-warning-heading = Your account has been issued a warning
+warning-heading = 您的帐户已收到警告
 warning-explanation =
-  In accordance with our community guidelines your account has been issued a warning.
+  根据我们的社区准则，您的帐户已收到警告。
 warning-instructions =
-  To continue participating in discussions, please press the "Acknowledge" button below.
+  要继续参与讨论，请按下面的"Acknowledge"按钮。
 warning-acknowledge = Acknowledge
 
-warning-notice = Your account has been issued a warning. To continue participating please <a>review the warning message</a>.
+warning-notice = 您的帐户已收到警告。要继续参加，请<a>查看报警信息</a>.
 
-profile-changeEmail-unverified = (Unverified)
-profile-changeEmail-current = (current)
-profile-changeEmail-edit = Edit
-profile-changeEmail-change = Change
-profile-changeEmail-please-verify = Verify your email address
+profile-changeEmail-unverified = (未验证)
+profile-changeEmail-current = (当前)
+profile-changeEmail-edit = 编辑
+profile-changeEmail-change = 更改
+profile-changeEmail-please-verify = 验证您的电子邮件地址
 profile-changeEmail-please-verify-details =
-  An email has been sent to { $email } to verify your account.
-  You must verify your new email address before it can be used
-  to sign in to your account or to receive notifications.
-profile-changeEmail-resend = Resend verification
-profile-changeEmail-heading = Edit your email address
+  一封电子邮件已发送到{ $email }以验证您的帐户。
+  您必须先验证新的电子邮件地址，然后才能使用
+  登录您的帐户或接收通知。
+profile-changeEmail-resend = 重新发送验证
+profile-changeEmail-heading = 编辑您的电子邮件地址
 profile-changeEmail-changeYourEmailAddress =
-  Change your email address
-profile-changeEmail-desc = Change the email address used for signing in and for receiving communication about your account.
-profile-changeEmail-newEmail-label = New email address
-profile-changeEmail-password = Password
+  更改您的电子邮件地址
+profile-changeEmail-desc = 更改用于登录和接收有关您帐户的通信的电子邮件地址。
+profile-changeEmail-newEmail-label = 新的电子邮件地址
+profile-changeEmail-password = 密码
 profile-changeEmail-password-input =
-  .placeholder = Password
-profile-changeEmail-cancel = Cancel
-profile-changeEmail-submit = Save
-profile-changeEmail-saveChanges = Save changes
-profile-changeEmail-email = Email
-profile-changeEmail-title = Email address
-profile-changeEmail-success = Your email has been successfully updated
+  .placeholder = 密码
+profile-changeEmail-cancel = 取消
+profile-changeEmail-submit = 保存
+profile-changeEmail-saveChanges = 保存更改
+profile-changeEmail-email = 电子邮件
+profile-changeEmail-title = 电子邮件地址
+profile-changeEmail-success = 您的电子邮件已成功更新
 
 ## Ratings and Reviews
 
