@@ -829,3 +829,8 @@ comments-addAReviewForm-rte =
 
 comments-addAReviewFormFake-rte =
   .placeholder = { comments-addAReviewForm-rteLabel }
+
+stream-footer-links-top-of-article = 文章顶部
+stream-footer-links-top-of-comments = 评论顶部
+stream-footer-links-profile = 个人资料和回复
+stream-footer-links-discussions = 更多讨论
