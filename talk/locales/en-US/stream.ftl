@@ -796,33 +796,33 @@ profile-changeEmail-email = 电子邮件
 profile-changeEmail-title = 电子邮件地址
 profile-changeEmail-success = 您的电子邮件已成功更新
 
-## Ratings and Reviews
+## 评级和评价
 
-ratingsAndReviews-reviewsTab = Reviews
-ratingsAndReviews-questionsTab = Questions
-ratingsAndReviews-noReviewsAtAll = There are no reviews.
-ratingsAndReviews-noQuestionsAtAll = There are no questions.
-ratingsAndReviews-noReviewsYet = There are no reviews yet. Why don't you write one?
-ratingsAndReviews-noQuestionsYet = There are no questions yet. Why don't you ask one?
-ratingsAndReviews-selectARating = Select a rating
-ratingsAndReviews-youRatedThis = You rated this
-ratingsAndReviews-showReview = Show review
+ratingsAndReviews-reviewsTab = 评价
+ratingsAndReviews-questionsTab = 问题
+ratingsAndReviews-noReviewsAtAll = 没有评价。
+ratingsAndReviews-noQuestionsAtAll = 没有问题。
+ratingsAndReviews-noReviewsYet = 尚无评价。你为什么不写一个？
+ratingsAndReviews-noQuestionsYet = 尚无任何问题。你为什么不问一个？
+ratingsAndReviews-selectARating = 选择一个评分
+ratingsAndReviews-youRatedThis = 您已评分
+ratingsAndReviews-showReview = 显示评价
   .title = { ratingsAndReviews-showReview } 
-ratingsAndReviews-rateAndReview = Rate and Review
-ratingsAndReviews-askAQuestion = Ask a Question
+ratingsAndReviews-rateAndReview = 评分和评价
+ratingsAndReviews-askAQuestion = 提问题
 ratingsAndReviews-basedOnRatings = { $count -> 
-  [0] No ratings yet
-  [1] Based on 1 rating
-  *[other] Based on { SHORT_NUMBER($count) } ratings
+  [0] 尚无评级
+  [1] Based on 1级
+  *[other] Based on { SHORT_NUMBER($count) }级
 }
 
 ratingsAndReviews-allReviewsFilter = All reviews
 ratingsAndReviews-starReviewsFilter = { $rating -> 
-  [1] 1 Star
-  *[other] { $rating } Stars
+  [1] 1 星
+  *[other] { $rating } 星
 }
 
-comments-addAReviewForm-rteLabel = Add a review (optional)
+comments-addAReviewForm-rteLabel = 添加评价（可选）
 
 comments-addAReviewForm-rte =
   .placeholder = { comments-addAReviewForm-rteLabel }
