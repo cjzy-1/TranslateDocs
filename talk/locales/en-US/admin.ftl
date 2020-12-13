@@ -900,103 +900,103 @@ moderate-linkDetails-label = 复制链接到该评论
 moderate-in-stream-link-copy = 流中
 moderate-in-moderation-link-copy = 在审核中
 
-moderate-emptyQueue-pending = Nicely done! There are no more pending comments to moderate.
-moderate-emptyQueue-reported = Nicely done! There are no more reported comments to moderate.
-moderate-emptyQueue-unmoderated = Nicely done! All comments have been moderated.
-moderate-emptyQueue-rejected = There are no rejected comments.
-moderate-emptyQueue-approved = There are no approved comments.
+moderate-emptyQueue-pending = 做得好！没有其他待审核的评论。
+moderate-emptyQueue-reported = 很好！没有更多举报的评论需审核。
+moderate-emptyQueue-unmoderated = 做得好！所有评论均已审核。
+moderate-emptyQueue-rejected = 没有已拒绝的评论
+moderate-emptyQueue-approved = 没有已批准的评论
 
-moderate-comment-edited = (edited)
-moderate-comment-inReplyTo = Reply to <Username></Username>
-moderate-comment-viewContext = View Context
-moderate-comment-viewConversation = View Conversation
+moderate-comment-edited = (编辑)
+moderate-comment-inReplyTo = 回复 <Username></Username>
+moderate-comment-viewContext = 查看上下文
+moderate-comment-viewConversation = 查看对话
 moderate-comment-rejectButton =
-  .aria-label = Reject
+  .aria-label = 拒绝
 moderate-comment-approveButton =
-  .aria-label = Approve
-moderate-comment-decision = Decision
+  .aria-label = 批准
+moderate-comment-decision = 决定
 moderate-comment-story = Story
-moderate-comment-storyLabel = Comment On
-moderate-comment-moderateStory = Moderate Story
-moderate-comment-featureText = Feature
-moderate-comment-featuredText = Featured
-moderate-comment-moderatedBy = Moderated By
-moderate-comment-moderatedBySystem = System
-moderate-comment-play-gif = Play GIF
-moderate-comment-load-video = Load Video
+moderate-comment-storyLabel =故事 评论
+moderate-comment-moderateStory = 审核故事
+moderate-comment-featureText = 推荐
+moderate-comment-featuredText = 推荐的
+moderate-comment-moderatedBy = 审核人为
+moderate-comment-moderatedBySystem = 系统
+moderate-comment-play-gif = 播放GIF
+moderate-comment-load-video = 加载视频
 
-moderate-single-goToModerationQueues = Go to moderation queues
-moderate-single-singleCommentView = Single Comment View
+moderate-single-goToModerationQueues = 转到审核队列
+moderate-single-singleCommentView = 单个评论视图
 
 moderate-queue-viewNew =
   { $count ->
-    [1] View {$count} new comment
-    *[other] View {$count} new comments
+    [1] 查看{$count}条新评论
+    *[other] 查看 {$count} 条新评论
   }
 
 moderate-comment-deleted-body =
-  This comment is no longer available. The commenter has deleted their account.
+  此评论不再可用。评论者已删除其帐户。
 
-### Moderate Search Bar
+### 审核搜索栏
 moderate-searchBar-allStories = All stories
-  .title = All stories
+  .title = 所有故事
 moderate-searchBar-noStories = We could not find any stories matching your criteria
-moderate-searchBar-stories = Stories:
-moderate-searchBar-searchButton = Search
+moderate-searchBar-stories = 故事：
+moderate-searchBar-searchButton = 搜索
 moderate-searchBar-titleNotAvailable =
-  .title = Title not available
+  .title = 标题不可用
 moderate-searchBar-comboBox =
-  .aria-label = Search or jump to story
+  .aria-label = 搜索或跳转到故事
 moderate-searchBar-searchForm =
-  .aria-label = Stories
+  .aria-label = 故事
 moderate-searchBar-currentlyModerating =
-  .title = Currently moderating
-moderate-searchBar-searchResults = Search results
-moderate-searchBar-searchResultsMostRecentFirst = Search results (Most recent first)
-moderate-searchBar-searchResultsMostRelevantFirst = Search results (Most relevant first)
-moderate-searchBar-moderateAllStories = Moderate all stories
+  .title = 目前正在审核
+moderate-searchBar-searchResults = 搜索结果
+moderate-searchBar-searchResultsMostRecentFirst = 搜索结果（最新的优先）
+moderate-searchBar-searchResultsMostRelevantFirst = 搜索结果（最相关优先）
+moderate-searchBar-moderateAllStories = 审核所有故事
 moderate-searchBar-comboBoxTextField =
-  .aria-label = Search or jump to story...
-  .placeholder = search by story title, author, url, id, etc.
-moderate-searchBar-goTo = Go to
-moderate-searchBar-seeAllResults = See all results
+  .aria-label = 搜索或跳转到故事...
+  .placeholder = 按故事标题，作者，URL，ID等进行搜索。
+moderate-searchBar-goTo = 转到
+moderate-searchBar-seeAllResults = 查看所有结果
 
-moderateCardDetails-tab-info = Info
-moderateCardDetails-tab-edits = Edit history
-### Moderate User History Drawer
+moderateCardDetails-tab-info = 信息
+moderateCardDetails-tab-edits = 编辑历史记录
+### 审核用户历史记录抽屉
 
 moderate-user-drawer-email =
-  .title = Email address
+  .title = 电子邮件地址
 moderate-user-drawer-created-at =
-  .title = Account creation date
+  .title = 帐户创建日期
 moderate-user-drawer-member-id =
-  .title = Member ID
-moderate-user-drawer-tab-all-comments = All Comments
-moderate-user-drawer-tab-rejected-comments = Rejected
-moderate-user-drawer-tab-account-history = Account History
-moderate-user-drawer-tab-notes = Notes
-moderate-user-drawer-load-more = Load More
-moderate-user-drawer-all-no-comments = {$username} has not submitted any comments.
-moderate-user-drawer-rejected-no-comments = {$username} does not have any rejected comments.
-moderate-user-drawer-user-not-found = User not found.
-moderate-user-drawer-status-label = Status:
-moderate-user-drawer-bio-title = Member bio
-moderate-user-drawer-username-not-available = Username not available
-moderate-user-drawer-username-not-available-tooltip-title = Username not available
-moderate-user-drawer-username-not-available-tooltip-body = User did not complete account setup process
+  .title = 会员ID
+moderate-user-drawer-tab-all-comments = 所有评论
+moderate-user-drawer-tab-rejected-comments = 已拒绝
+moderate-user-drawer-tab-account-history = 帐户历史记录
+moderate-user-drawer-tab-notes = 注释
+moderate-user-drawer-load-more = 加载更多
+moderate-user-drawer-all-no-comments = {$username}尚未提交任何评论。
+moderate-user-drawer-rejected-no-comments = {$username}没有任何被拒绝的评论。
+moderate-user-drawer-user-not-found = 未找到用户。
+moderate-user-drawer-status-label = 状态：
+moderate-user-drawer-bio-title = 成员简历
+moderate-user-drawer-username-not-available = 用户名不可用
+moderate-user-drawer-username-not-available-tooltip-title = 用户名不可用
+moderate-user-drawer-username-not-available-tooltip-body = 用户未完成帐户设置过程
 
-moderate-user-drawer-account-history-system = <icon>computer</icon> System
-moderate-user-drawer-account-history-suspension-ended = Suspension ended
-moderate-user-drawer-account-history-suspension-removed = Suspension removed
-moderate-user-drawer-account-history-banned = Banned
-moderate-user-drawer-account-history-ban-removed = Ban removed
-moderate-user-drawer-account-history-no-history = No actions have been taken on this account
-moderate-user-drawer-username-change = Username change
-moderate-user-drawer-username-change-new = New:
-moderate-user-drawer-username-change-old = Old:
+moderate-user-drawer-account-history-system = <icon>计算机</icon>系统
+moderate-user-drawer-account-history-suspension-ended = 停用结束
+moderate-user-drawer-account-history-suspension-removed = 已取消停用
+moderate-user-drawer-account-history-banned = 已封禁
+moderate-user-drawer-account-history-ban-removed = 禁令已删除
+moderate-user-drawer-account-history-no-history = 此帐户未采取任何操作
+moderate-user-drawer-username-change = 用户名更改
+moderate-user-drawer-username-change-new = 新：
+moderate-user-drawer-username-change-old = 旧：
 
-moderate-user-drawer-account-history-premod-set = Always pre-moderate
-moderate-user-drawer-account-history-premod-removed = Removed pre-moderate
+moderate-user-drawer-account-history-premod-set = 始终预先审核
+moderate-user-drawer-account-history-premod-removed = 已移除预审和
 
 moderate-user-drawer-suspension =
   停用， { $value } { $unit ->
