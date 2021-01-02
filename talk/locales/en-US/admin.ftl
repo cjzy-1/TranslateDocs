@@ -375,7 +375,7 @@ configure-general-guidelines-explanation =
   这将显示在整个站点的评论上方。
   您可以使用Markdown设置文本格式。
   有关如何使用Markdown的更多信息：
-  < externalLink > https://www.markdownguide.org/cheat-sheet/ </ externalLink >
+  <externalLink>https://www.markdownguide.org/cheat-sheet/</externalLink>
 configure-general-guidelines-showCommunityGuidelines = 显示社区准则摘要
 
 #### 简历
@@ -1280,18 +1280,18 @@ userDetails-warned-explanation = 用户尚未确认该警告。
 
 configure-general-reactions-title = 反应
 configure-general-reactions-explanation =
-  让您的社区互相参与并一键表达
-  默认情况下，Coral允许评论者“尊重”
+  让您的社区互相参与并一键表达，
+  默认情况下，允许评论者“尊重”
   对方的评论。
 configure-general-reactions-label = 反应标签
 configure-general-reactions-input =
-  .placeholder = 例如 尊重
+  .placeholder = E.g. 尊重
 configure-general-reactions-active-label = 活跃反应标签
 configure-general-reactions-active-input =
-  .placeholder = 例如 尊重
+  .placeholder = E.g. 已尊重
 configure-general-reactions-sort-label = 排序标签
 configure-general-reactions-sort-input =
-  .placeholder = 例如 最受尊敬的人
+  .placeholder = E.g. 最受尊重的
 configure-general-reactions-preview = 预览
 configure-general-reaction-sortMenu-sortBy = 排序方式
 
@@ -1301,11 +1301,11 @@ configure-general-staff-explanation =
   出现在评论流和管理界面中。
 configure-general-staff-label = 徽章文本
 configure-general-staff-input =
-  .placeholder = 例如 工作人员
+  .placeholder = E.g. 工作人员
 configure-general-staff-moderator-input =
-  .placeholder = 例如 审核人员
+  .placeholder = E.g. 审核人员
 configure-general-staff-admin-input =
-  .placeholder = 例如 管理员
+  .placeholder = E.g. 管理员
 configure-general-staff-preview = 预览
 configure-general-staff-moderator-preview = 预览
 configure-general-staff-admin-preview = 预览
