@@ -639,7 +639,7 @@ configure-premodLink-commentsContainingLinks =
 configure-premodLink-description =
   审核人员必须批准所有包含连接的评论后才能发布到该故事。
 
-configure-liveUpdates-title =
+configure-liveUpdates-title = 启用这个故事的评论的实时更新
 configure-enableLiveUpdates-title = 启用实时更新
 configure-liveUpdates-description =
 configure-enableLiveUpdates-description =
