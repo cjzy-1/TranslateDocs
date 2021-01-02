@@ -660,10 +660,13 @@ configure-disableLiveUpdates-disable = 禁用
 configure-liveUpdates-disabledSuccess = 现在禁用实时更新
 configure-liveUpdates-enabledSuccess = 现在启用了实时更新
 
-configure-messageBox-title =
+configure-messageBox-title = 为这个故事启用消息框
 configure-addMessage-title =
   添加消息或问题
 configure-messageBox-description =
+  在读者的评论框顶部添加一条消息。
+  使用它来建议讨论主题，提出问题或提出有关
+  此故事评论的公告。
 configure-addMessage-description =
   在读者的评论框顶部添加一条消息。用这个
   提出主题，提出问题或发表与此相关的公告
