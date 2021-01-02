@@ -704,7 +704,7 @@ configure-openStream-description =
 configure-openStream-openStream = 打开流
 configure-openStream-theStreamIsNowClosed = 现在关闭流
 
-configure-moderateThisStream =
+configure-moderateThisStream = 审核该评论流
 
 qa-experimental-tag-tooltip-content =
   问答模式目前正在积极开发中。有任何反馈或要求
