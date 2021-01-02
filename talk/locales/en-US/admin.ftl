@@ -1285,13 +1285,13 @@ configure-general-reactions-explanation =
   对方的评论。
 configure-general-reactions-label = 反应标签
 configure-general-reactions-input =
-  .placeholder = E.g. 尊重
+  .placeholder = 如；尊重
 configure-general-reactions-active-label = 活跃反应标签
 configure-general-reactions-active-input =
-  .placeholder = E.g. 已尊重
+  .placeholder = 如；已尊重
 configure-general-reactions-sort-label = 排序标签
 configure-general-reactions-sort-input =
-  .placeholder = E.g. 最受尊重的
+  .placeholder = 如；最受尊重的
 configure-general-reactions-preview = 预览
 configure-general-reaction-sortMenu-sortBy = 排序方式
 
@@ -1301,11 +1301,11 @@ configure-general-staff-explanation =
   出现在评论流和管理界面中。
 configure-general-staff-label = 徽章文本
 configure-general-staff-input =
-  .placeholder = E.g. 工作人员
+  .placeholder = 如；工作人员
 configure-general-staff-moderator-input =
-  .placeholder = E.g. 审核人员
+  .placeholder = 如；审核人员
 configure-general-staff-admin-input =
-  .placeholder = E.g. 管理员
+  .placeholder = 如；管理员
 configure-general-staff-preview = 预览
 configure-general-staff-moderator-preview = 预览
 configure-general-staff-admin-preview = 预览
