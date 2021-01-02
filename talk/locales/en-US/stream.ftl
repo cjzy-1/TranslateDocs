@@ -8,8 +8,8 @@ general-userBoxUnauthenticated-joinTheConversation = 加入对话
 general-userBoxUnauthenticated-signIn = 登录
 general-userBoxUnauthenticated-register = 注册
 
-general-userBoxAuthenticated-signedIn =
-  登入为
+general-userBoxAuthenticated-signedInAs =
+  <Username></Username>登入
 general-userBoxAuthenticated-notYou =
  不是你？<button>退出</button>
 
@@ -17,7 +17,7 @@ general-userBox-youHaveBeenSuccessfullySignedOut =
   您已成功退出
 
 general-tabBar-commentsTab = 评论
-general-tabBar-myProfileTab = 的个人资料
+general-tabBar-myProfileTab = 个人资料
 general-tabBar-discussionsTab = 讨论
 general-tabBar-configure = 配置
 
