@@ -622,8 +622,8 @@ discussions-discussionsQuery-storyNotFound = 找不到故事
 ## 评论流
 configure-stream-title =
 configure-stream-title-configureThisStream =
-  配置此流
-configure-stream-apply =
+  配置此评论流
+configure-stream-apply = 应用
 configure-stream-update = 更新
 configure-stream-streamHasBeenUpdated =
   此信息流已更新
@@ -690,7 +690,7 @@ configure-messageBox-iconChatBubble = 聊天气泡
 configure-messageBox-noIcon = 没有图标
 configure-messageBox-writeAMessage = 写一条消息
 
-configure-closeStream-title =
+configure-closeStream-title = 关闭评论流
 configure-closeStream-closeCommentStream =
   关闭评论流
 configure-closeStream-description =
