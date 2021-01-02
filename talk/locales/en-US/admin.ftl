@@ -187,7 +187,7 @@ configure-moderationPhases-header-title = 审核阶段
 configure-moderationPhases-description =
   配置外部审核阶段以自动化审核。
   审核请求将以JSON编码并签名。
-  要了解有关审核请求的更多信息，请访问我们的< externalLink > docs </ externalLink >。
+  要了解有关审核请求的更多信息，请访问我们的<externalLink>docs</externalLink>。
 configure-moderationPhases-addExternalModerationPhaseButton =
   添加外部审核阶段
 configure-moderationPhases-moderationPhases = 审核阶段
@@ -778,7 +778,7 @@ configure-moderation-newCommenters-comments = 评论
 configure-wordList-banned-bannedWordsAndPhrases = 禁用的单词和短语
 configure-wordList-banned-explanation =
   评论中包含被禁用的词语列表中单词或短语的会被<strong>自动拒绝并且不会发布</strong>.
-configure-wordList-banned-wordList = 禁用的词列表
+configure-wordList-banned-wordList = 禁用词列表
 configure-wordList-banned-wordListDetailInstructions =
   用新的一行分隔禁用的单词或短语。单词/短语不区分大小写。
 
@@ -792,7 +792,7 @@ configure-wordList-suspect-explanationSuspectWordsList =
   评论中包含可疑词列表中的词语的会被
   <strong>置于待审核队列中以供审核人员审阅，
   审核人员批准后予以发布。</strong>
-configure-wordList-suspect-wordList = 可疑单词列表
+configure-wordList-suspect-wordList = 可疑词列表
 configure-wordList-suspect-wordListDetailInstructions =
   用新行分隔可疑词语。不区分大小写。
 
